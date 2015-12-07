@@ -1,0 +1,4 @@
+.htaccess
+
+### ignore config file with license key ###
+config.php

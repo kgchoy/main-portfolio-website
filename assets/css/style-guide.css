@@ -1,0 +1,84 @@
+/*
+ *  CSS specifically for the style guide.
+ */
+
+/* override the body CSS from the actual site */
+#style-guide-body {
+    background-image: none;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+/* override the header CSS from the actual site */
+#nav-header {
+    position: static; /* in the actual site, position is fixed */
+}
+
+#centered-nav-container, header {
+    /* position is fixed in the actual site; we don't want it fixed at the top in the style guide */
+    position: static;
+    display: block;
+}
+
+#nav-bar-main {
+    width: 100%;
+
+}
+
+#nav-bar-left {
+    margin-left: 5%;
+}
+
+#nav-bar-right {
+    margin-right: 5%;
+}
+
+.color-block{
+    width:2rem; 
+    height:2rem;
+    display:block;
+}
+
+
+.light-blue {
+    background-color: rgb(0, 155, 223);
+}
+
+.dark-blue {
+    background-color: rgb(0, 93, 170);
+}
+
+.red {
+    background-color: rgb(255, 0, 0);
+}
+
+h1#style-guide-header {
+    color: black;
+}
+
+/* for styling code inside the code tag */
+section code {
+    background-color: #DDD;
+    padding: 0.3em 0.75em;
+    display: block;
+}
+
+/* preformatted code */
+section pre {
+    font-size: 1.1rem;
+    white-space: pre-wrap; /* wrap text */
+}
+
+.style-guide-h2 {
+    margin-top: 2em;
+}
+
+/* remove the extra upper margin; not needed for style guide */
+.work-page-bottom-buttons {
+    margin-top: 1em;
+}
+
+/* currently used for style guide only */
+#contact-form {
+    margin-bottom: 2em;
+}

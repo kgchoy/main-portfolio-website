@@ -1,0 +1,91 @@
+Title: BCcampus.ca Usability Testing
+
+----
+
+Resources:
+
+After I completed usability testing, I was tasked with compiling a report about procedures, findings, and recommendations. To prioritize the severities of the website's issues, I defined the (link: http://www.userfocus.co.uk/articles/redroutes.html text: red routes) of the website: which functionality was most important to the website, and what obstacles were impeding these routes? For example, I considered some of these issues, such as its difficult-to-use search function, were critical issues that a majority of our users had encountered and had to be fixed as soon as possible.
+
+----
+
+Categories: UX research, usability testing
+
+----
+
+Roles: Usability test / use case designer, organizer, participant recruiter, and coordinator, technical writer
+
+----
+
+Time-Taken: 2013, three months
+
+----
+
+Tools: Adobe Connect
+
+----
+
+Collaborators: Tori Klassen
+
+----
+
+About-Section:
+
+## About
+
+I worked at BCcampus, a publically-funded organization that uses information technology to improve teaching and learning in BC's universities and colleges, between January&ndash;August of 2013. During my first three months, I worked on a usability test for our corporate website to find out whether our audience could perform typical tasks on our website easily, and to discover the usability problems of our site.
+
+(image: bcc-homepage-jan-2013-top.jpg alt: Screenshot of the BCcampus home page from January 2013 link: bcc-homepage-jan-2013-full.jpg caption: Screenshot of the BCcampus home page from January 2013. This was the version I conducted a usability test on. Click for a full height screenshot.)
+
+----
+
+Process-Section:
+
+## Process
+I worked individually for most of this project, being involved with the usability research and testing from start to finish.
+
+### Understanding Our Users
+Given existing data from internal reports from BCcampus, I knew that the target audience of the BCcampus.ca website included faculty, other education workers, and administrators. I needed to break down the target audience further, and get to know what tasks are most important to each segment of the target audience.
+
+(image: bcc-target-audience-graphic.png alt: The target audience of BCcampus.ca link: bcc-target-audience-graphic.png caption: The target audience of BCcampus.ca)
+
+### Tasks & Use Cases
+Based on the target audience, I brainstormed the most common use cases on the BCcampus.ca website. From these use cases, I created questions to use during the test in order to verify these use cases, in addition to general website exploration tasks. I still had to keep the test limitations in mind (for example, that the test should ideally be 45 minutes maximum).
+
+I created nine tasks, which ranged from collecting general qualitative feedback (_"I'll give you 45 seconds to freely explore the home page without interruption"_) to task- and use-case-based (_"A colleague of yours mentions hearing something about "open educational resources” but he isn’t sure what it is. Using this site, determine whether or not it contains information that would address his question."_).
+
+### Recruiting Participants
+(image: recruitment-process.jpg link: recruitment-process.jpg alt: Notes from the participant recruitment and selection process caption: Some handwritten discussion and decision notes from the participant recruitment and early selection process)
+
+To gather participants who would fit the BCcampus website's target audience, I sent an email via BCcampus' newsletter mailing list. Given the high number of responses (greater than 30), my supervisor and I decided to select eight participants for in-person testing, and do an additional round of testing remotely using videoconferencing software. I tried to have participants be as diverse as possible (within our target audience) from as many educational job roles as possible.
+
+### Facilitating and Coordinating the Tests
+As mentioned earlier, testing was done in two rounds: the first involved a site visit to each participant's workplace, while the second involved remote usability testing via web conferencing.
+
+Each in-person test was designed to take 45 minutes at most, since I knew the target audience had busy schedules. During each of these sessions, I was the test facilitator; I set up the test environment, managed the session, and paid attention to what the participant is doing and saying. There was also one observer, whose main role was to take detailed notes. Tori Klassen, my supervisor, was the observer during most tests.
+
+We visited each participant at the academic institution they worked at. Firstly, I set up a camera mounted on a tripod so that we could capture video of the participant’s screen and record audio; these recordings were to be used to review the session in case we missed anything during live testing. I then explained an introduction of the test: the purpose of the test, the roles of the facilitator and observer, and some key ideas to keep in mind. I then had the participant fill out the waiver form and the closed-ended questionnaire, which would allow us to collect more information about our website user demographics.
+
+(image: bcc-test-environment.jpg link: bcc-test-environment.jpg alt: A typical arrangement of the test environment caption: A typical arrangement of the test environment)
+
+At this point, I started filming with the video camera, and went through the tasks. I verbally told them what the task was, and also gave them a sheet of paper with the task written down.
+
+Once the tasks were complete, the two of us did a debriefing. This was where we discussed with the user some key observations specific to each test – for example, some things the user had a lot of trouble with – as well as give them an opportunity to bring up comments of their own. I also asked eight questions about their overall experience with the website; this part was more of an open-ended post-test questionnaire. Once the debriefing was complete, I turned off the video camera, thanked them for participating in our usability test, and gave them a gift card.
+
+After the in-person test sessions were completed, I conducted a shorter, remote usability test with three additional participants. This was conducted using the Adobe Connect videoconferencing service. I was the sole facilitator and observer for this round.
+
+### Aggregating Results and Recommendations
+
+After I completed usability testing, I was tasked with compiling a report about procedures, findings, and recommendations. To prioritize the severities of the website's issues, I defined the (link: http://www.userfocus.co.uk/articles/redroutes.html text: red routes) of the website: which functionality was most important to the website, and what obstacles were impeding these routes? For example, I considered some of these issues, such as its difficult-to-use search function, were critical issues that a majority of our users had encountered and had to be fixed as soon as possible.
+
+The report was written specifically for internal use at BCcampus, as well as for BCcampus stakeholders. However, I obtained permission to include this report on my portfolio website; you may (file: bccampus-website-usability-test-report.pdf text: download it here).
+
+----
+
+Outcomes-Section:
+
+## Outcomes
+For BCcampus, the post-test report, combined with the severity of many of the issues discovered during usability testing, heavily influenced BCcampus' decision to do a major overhaul of the website, and guided the design of the new website, which launched in October 2013.
+
+While it was challenging to create and coordinate a usability test from scratch, it was also very rewarding to be able to gain so much practical experience. It was also a great experience being able to work directly with faculty, academic administrators, and other academic staff.
+
+(image: bcc-homepage-nov-2013-top.jpg link: bcc-homepage-nov-2013-full.jpg alt: Screenshot of BCcampus.ca from November 2013 caption: Screenshot of the new website from November 2013, which incorporated recommendations from usability testing. Click for a full height screenshot.)

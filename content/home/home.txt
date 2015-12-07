@@ -1,0 +1,17 @@
+Title: Main Page
+
+----
+
+Main-Banner-Text:
+
+I'm a user experience researcher and developer based in Vancouver, British Columbia.
+
+----
+
+Contact-Me-Text:
+
+## Contact Me
+
+I would be happy to chat about potential collaborations, full or part-time career opportunities, and more. I will be open to full-time career positions starting in January 2016.
+
+The best way to contact me is by email (<kgchoy@sfu.ca>) or on (link: http://ca.linkedin.com/pub/kevin-choy/93/a52/784/ text: LinkedIn).

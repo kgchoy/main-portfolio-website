@@ -1,0 +1,195 @@
+*, *::after, *::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* class attribute that begins with the name 'col-' */
+[class^='col-'] {
+    float: left;
+    padding: 1.5em 2.5em;
+}
+
+.col-1of3-work-figure {
+    padding: 0;
+}
+
+
+/*
+ *  General 3-column grid structure
+ */
+.col-2of3 {
+    width: 70%;
+}
+
+.col-1of3-work-sidebar, .col-1of3-about-sidebar {
+    width: 30%;
+}
+
+.col-3of3 {
+    float: none;
+}
+
+.col-3of3 h1 {
+    margin-bottom: 0;
+}
+
+.col-1of3-work-main {
+    width: 33.333%;
+}
+
+.col-1of3-work-sidebar figure, .col-1of3-about-sidebar figure, .main-work-listing-figure figure {
+    margin: 0;  /* remove default figure margin */
+}
+
+.col-1of3-work-sidebar figure img, .col-1of3-about-sidebar figure img, .main-work-listing-figure figure img {
+    width: 100%;  /* fill as much of the width and height of the column as possible */
+    height: 100%;
+}
+
+/* override the [class^='col-'] declaration above for now */
+.col-2of3-work-description, .col-1of3-work-figure {
+    width: 100%;
+    padding: 0;
+}
+
+.col-1of3-work-main {
+    padding-top: 0.25em;
+}
+
+
+@media (max-width: 70rem) {
+    .main-page-work-grid .col-1of3-work-main {
+        width: 100%;
+    }
+
+    .col-2of3-work-description {
+        width: 62.1%;  /* make this text section as close to the images as possible */
+        padding-right: 1.85em;  /* reduce the amount of padding compared to before */
+    }
+
+    .col-1of3-work-figure {
+        float: right;
+        padding-left: 1.85em;  /* reduce the amount of padding compared to before */
+        width: 37.9%;  /* make this image width as close to the images as possible */
+    }
+
+    .main-page-work-grid:after {
+        content: "";
+        display: block; /* in case it wasn't */
+        clear: both;
+    }
+
+}
+
+
+/* increase the amount of column width */
+@media (max-width: 59rem) {
+    /* when used as a left sidebar */
+    .col-1of3-work-sidebar {
+        padding-right: 0; /* eliminate padding */
+    }
+
+    /* when used as a right sidebar */
+    .col-1of3-about-sidebar {
+        padding-left: 1em; /* reduce the amount of padding */
+    }
+
+    .col-2of3 {
+        padding-right: 1.85em;  /* reduce the amount of padding compared to before */
+    }
+
+    /* fix bug with float - fixes a problem where floated items don't have a height */
+    .col-1of3-work-main {
+        clear: both;
+        width: 100%;
+    }
+
+    .col-2of3-work-description {
+        width: 55.5%;
+        padding-right: 1.85em;  /* reduce the amount of padding compared to before */
+    }
+
+    .col-1of3-work-figure {
+        width: 44.5%;
+        padding-left: 1.85em;  /* reduce the amount of padding compared to before */
+    }
+
+}
+
+/* collapse to single-column */
+@media (max-width: 50.75rem) {
+    .col-2of3 {
+        width: 100%;
+        padding: 1.5em 1.35em;  /* add more vertical padding */
+    }
+
+    .col-1of3-work-sidebar, .col-1of3-about-sidebar, .col-1of3-work-main {
+        padding: 1.5em 1.35em;
+        width: 100%;
+    }
+
+    .col-2of3-work-description, .col-1of3-work-figure {
+        padding: 0;
+        width: 100%;
+    }
+
+    .col-3of3 {
+        padding: 1.5em 1.35em;
+        width: 100%;
+    }
+
+}
+
+/* left column */
+.body-gridCol-1of2 {
+    float: left;
+    width: 48.5%;
+    margin-right: 1.5%;
+}
+
+/* right column */
+.body-gridCol-2of2 {
+    float: left;
+    width: 48.5%;
+    margin-left: 1.5%;
+}
+
+.col-1of3-work-main {
+    padding-left: 0;
+    padding-right: 3em;
+}
+
+@media (max-width: 70rem) {
+    .col-1of3-work-main {
+        padding-right: 0;
+    }
+}
+
+/* collapse 2-column grid to single-column */
+@media (max-width: 48rem) {
+    /* query code for both columns; collapse to single-column */
+    .body-gridCol-1of2, .body-gridCol-2of2 {
+        width: 100%;
+        clear: both;
+        /*margin-bottom: 0.9em;*/
+    }
+
+    /* left column */
+    .body-gridCol-1of2 {
+        margin-right: 0;
+    }
+
+    /* right column */
+    .body-gridCol-2of2 {
+        margin-left: 0;
+    }
+}
+
+/* fix bug with float - fixes a problem where floated items don't have a height */
+.grid:after {
+    content: "";
+    display: block; /* in case it wasn't */
+    clear: both;
+}
+

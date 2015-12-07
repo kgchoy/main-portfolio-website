@@ -1,0 +1,677 @@
+/*
+ *  Main CSS for the portfolio website. For CSS related to the site's grids, see grid.css.
+ */
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 155, 223);
+    clear: both;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100; /* layer above everything else on the*/
+    border-bottom: solid rgb(0, 155, 223) 0.25em;
+}
+
+footer {
+    margin-top: 1em;
+}
+
+
+/* Styling for the navigation button */
+.button-nav {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    display: inline-block;      /* make the button inline, but preserve block properties such as margins */
+    padding: 0.75em 1.5em;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 155, 223);
+    font-size: 1.25rem;
+    text-decoration: none;      /* no underline */
+}
+
+.full-width-button {
+    width: 100%;
+    display: block;
+    margin-top: 0.25em;
+    margin-bottom: 0.75em;
+    font-size: 1.1rem;
+    border-radius: 0.5em;
+}
+
+/* Reduce horizontal button padding */
+@media (max-width: 65rem) {
+    .button-nav {
+        padding: 0.65em 0.75em;
+    }
+
+    .button-header-nav {
+        padding: 0.75em 1.5em;
+    }
+}
+
+/* Reduce to thinner weight of font */
+@media (max-width: 40rem) {
+    .button-nav {
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+}
+
+.menu-items-list .button-nav:hover {
+    color: rgb(255, 0, 0);
+}
+
+/* For button hover stste */
+.button-nav:hover {
+    background-color: rgb(0, 93, 170);  /* a darker shade of blue as the background color of the button */
+}
+
+
+/* Styling for the navigation button */
+p a, li a {
+    /*color: inherit;*/
+    color: rgb(0, 155, 223);
+    font-weight: 600;
+    /*text-decoration: none;*/
+}
+
+/*
+ *  Form properties
+ */
+/* properties for form fields within a 2-column structure, when both columns are identical */
+.form-field {
+    width: 100%;
+    margin: 0.125rem 0;
+    padding: 0.5em 0.5em;
+    font-size: 0.9rem;
+    margin-bottom:0.5rem;
+}
+
+
+/* for textarea field - all properties below needed to override default css */
+.comments-textarea-full {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
+  padding: 0.5em 0.5em;
+  width: 100%;
+  height: 8em;
+}
+
+input {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.form-label {
+  margin-top:0.5rem;
+}
+
+
+#first-section {
+    margin-top: 6rem;
+}
+
+#site-name {
+    color: rgb(0, 155, 223);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    float: left;
+    margin-left: 0.1em;
+}
+
+
+#site-name a, #site-name a:visited {
+    text-decoration: none;
+    color: rgb(0, 155, 223);
+}
+
+#site-name a:hover {
+    color: rgb(255, 0, 0);
+}
+
+#nav-bar-logo {
+    vertical-align: bottom;
+    float: left;
+}
+
+#nav-bar-logo a img:hover {
+    border: 0.15em solid rgb(255, 0, 0);
+}
+
+h1 {
+    color: rgb(0, 155, 223);
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+h2 {
+    color: rgb(0, 155, 223);
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+#skills-summary h2 {
+    margin-top: 1.25em;
+}
+
+h3 {
+    color: rgb(0, 155, 223);
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-top: 0.75em;
+    margin-bottom: 0.35em;
+}
+
+h2 a, h3 a {
+    text-decoration: none;
+    color: rgb(0, 155, 223);
+}
+
+/* vertically align the h3 in the work boxes with the image on the right */
+@media (max-width: 70rem) {
+    .work-description h3 {
+        margin-top: 0;
+    }
+}
+
+/* when in single-column layout, re-increase the margin */
+@media (max-width: 50.75rem) {
+    .work-description h3 {
+        margin-top: 0.75em;
+    }
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.button-nav:hover {
+    color: rgb(255, 255, 255);
+}
+
+h4 {
+    color: rgb(0, 155, 223);
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin:0;
+    margin-bottom: 0.75em;
+}
+
+#work-sidebar h4:not(:first-child) {
+    margin-top: 2em;
+}
+
+.col-2of3 h3 {
+    margin-top: 1.25em;
+}
+
+.menu-items-list {
+    list-style-type: none;
+    /*height: 100%;*/
+}
+
+.menu-items-list .button-header-nav, .menu-items-list .button-footer-nav {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 155, 223);
+}
+
+.button-footer-nav {
+    padding: 0 0.75em;
+}
+
+@media (max-width: 47rem) {
+    .button-header-nav, .button-footer-nav {
+        margin: 0;
+    }
+}
+
+ol {
+    padding-left:2em;
+    margin:0.5em 0;
+}
+
+ol li {
+    margin:0.125em 0;
+}
+
+
+/*
+ *  Invisible tag used as an anchor, offsetted above the actual section. This is needed due to the
+ *  static nav bar blocking the content behind it if not used.
+ */
+.anchor-link {
+    display: block;  /* display: none will break anchor links */
+    visibility: hidden;
+    height: 4rem;
+    margin-top: -4rem;
+}
+
+#banner-text {
+    margin-bottom: 4em;
+}
+
+#banner-text p, #banner-text h1 {
+    font-weight: 700;
+    font-size: 2.1rem;
+    margin: 0.5em 0;
+    color: rgb(0, 0, 0);
+}
+
+.partial-width-button {
+    font-size: 1.2rem;
+    border-radius: 0.5em;
+}
+
+@media (max-width: 36rem) {
+    #banner-text p, #banner-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .partial-width-button {
+        font-size: 1rem;
+    }
+}
+
+
+/* Navigation elements */
+
+/* Container for footer navigation menu, which is centered and has padding on both sides for
+   whitespace. Identical to header nav menu, but the positioning isn't set as fixed. */
+#footer-container {
+    clear: both;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 99;
+}
+
+/* The actual centered navigation bar itself */
+#nav-bar-main, #footer-bar-main {
+    clear: both;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 155, 223);
+    width: 80%;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2.5em;
+}
+
+@media (max-width: 85rem) {
+    #nav-bar-main, #footer-bar-main {
+        width: 90%;
+    }
+}
+
+@media (max-width: 75rem) {
+    #nav-bar-main, #footer-bar-main {
+        width: 100%;
+    }
+}
+
+/* Remove the bullets and margin/padding from the nav list */
+#nav-bar-main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* increase the amount of space above menu items on header nav bar */
+#nav-bar-main #nav-bar-right ul {
+    margin: 0.325em;
+}
+
+#nav-bar-left {
+    float: left;
+    clear: both;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}
+
+#nav-bar-left ul {
+    float: left;
+    clear: both;
+}
+
+/* For the left side of the navigation (Browse/About Us/Contact Us) */
+#nav-bar-left ul li {
+    float: left;
+}
+
+/* Float the right side of the navigation (log in/register and cart) to the right */
+#nav-bar-right {
+    float: right;
+    height: 100%;
+    vertical-align: bottom;
+ }
+
+
+#footer-bar-left {
+    float: left;
+    clear: both;
+}
+
+#footer-bar-left ul {
+    float: left;
+    clear: none;
+}
+
+#footer-bar-left ul li {
+    float: left;
+}
+
+/* Remove the bullets and margin/padding from the nav list */
+#footer-bar-main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#footer-bar-left {
+    float: left;
+    clear: none;
+}
+
+#footer-bar-right ul li {
+    float: left;
+}
+
+#footer-bar-right {
+    float: right;
+}
+
+@media (max-width: 44rem) {
+    #site-name {
+        display: none;
+    }
+}
+
+@media (max-width: 41rem) {
+    #footer-bar-right li {
+        clear: both;
+    }
+}
+
+/* Collapse the right-hand menu options into a second row */
+@media (max-width: 39.5rem) {
+    #nav-bar-main {
+        width: 100%;
+    }
+
+    #nav-bar-right {
+        float: right;
+    }
+
+    .menu-items-list {
+        /*width: 100%;*/
+        margin-top: 3.5em;
+        padding-left: 1.5em;
+        clear: both;
+    }
+}
+
+@media (max-width: 30.8rem) {
+    #nav-bar-right .button-nav {
+        margin-top: 0;
+        padding: 0.75em 0.75em;
+        margin: 0;
+    }
+}
+
+@media (max-width: 50.75rem) {
+    #nav-bar-main, #footer-bar-main {
+        padding: 0 1.35em;
+    }
+}
+
+@media (max-width: 27rem) {
+    #nav-bar-right {
+        padding-top: 0.4em;
+        padding-bottom: 0.4em;
+    }
+
+    #nav-bar-right .button-nav {
+        font-size: 1rem;
+    }
+}
+
+/* text and interactive elements for very small screens */
+@media (max-width: 23rem) {
+    #site-name {
+        font-size: 2rem;
+        margin-top: 0.5rem;
+    }
+
+    #nav-bar-right .button-nav {
+        font-size: 0.875rem;
+    }
+}
+
+/* After floating to the right, this sets the order of the menu items in the correct order */
+#nav-bar-right ul li {
+    float: left;
+}
+
+.section-container {
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+}
+
+.full-width-image, .full-width-figure img, .section-container figure, .section-container figure img {
+    width: 100%;
+}
+
+.full-width-figure, .section-container figure {
+    width: 100%;
+    margin: 1em 0;
+}
+
+figcaption {
+    font-style: italic;
+    color: rgb(150, 150, 150);
+}
+
+#page-container, #nav-bar-main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media(max-width: 87rem) {
+    #page-container, #nav-bar-main, #footer-bar-main {
+        width: 100%;
+    }
+}
+
+@media(max-width: 71rem) {
+    .section-container {
+        width: 100%;
+    }
+}
+
+.col-1of3-work-sidebar figcaption {
+    margin-top: 0.5em;
+}
+
+#footer-bar-main {
+    border-top: solid rgb(0, 155, 223) 0.08em;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+#work-sidebar {
+    background: none;
+}
+
+@media (max-width: 50.75rem) {
+    #work-sidebar {
+        background-color: rgb(240, 240, 240);
+    }
+}
+
+#process-section h2, #outcomes-section h2 {
+    margin-top: 2em;
+}
+
+.menu-items-list:after {
+    /* clearfix to prevent zero-height element */
+    clear: both;
+    content: "";
+    display: table;
+}
+
+#nav-header {
+    height: auto;
+    display: block;
+}
+
+.embedded-video, figure iframe {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+/* begin taking up the full width of its parent container */
+@media (max-width: 62.5rem) {
+    .embedded-video, figure iframe {
+        width: 100%;
+    }
+}
+
+#footer-bar-right p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#footer-bar-right p {
+    font-size: 0.9rem;
+}
+
+#footer-bar-left a {
+    font-size: 1.15rem;
+}
+
+#footer-bar-right p, #footer-bar-left a {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#footer-bar-left .menu-items-list img {
+    padding-right: 0.5em;
+}
+
+header .menu-items-list li a {
+    margin-left: 3em;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+footer .menu-items-list li a {
+    margin-left: 0;
+    margin-right: 2.5em;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#left-footer-links, #right-footer-links {
+    display: inline;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media (max-width: 97rem) {
+    #footer-bar-right {
+        clear: both;
+        float: none;
+        padding-top: 0.75em;
+    }
+}
+
+@media (max-width: 79rem) {
+    #footer-bar-right {
+        clear: both;
+        float: none;
+        padding-top: 1em;
+    }
+
+    #footer-bar-left .menu-items-list {
+        margin: 0;
+    }
+}
+
+@media (max-width: 48rem) {
+    #left-footer-links, #right-footer-links, #footer-bar-right {
+        display: block;
+        float: left;
+    }
+
+    #left-footer-links li, #right-footer-links li {
+        clear: both;
+        float: left;
+    }
+
+    #left-footer-links li {
+        margin-right: 5rem;
+        padding-right: 0;
+    }
+
+}
+
+@media (max-width: 32rem) {
+    #left-footer-links li {
+        margin-right: 0rem;
+    }
+
+    #footer-bar-left .menu-items-list {
+        width: 100%;
+    }
+}
+
+/*
+ *  Removes borders from the footer images. Rule needed for IE10 and below because those browsers
+ *  automatically add a border.
+ */
+.footer-icon {
+    border-style: none;
+}
+
+.main-work-listing-figure img {
+    border: 0.075rem solid rgb(225, 225, 225);
+}
+
+
+/* reduce the amount of vertical spacing above the first paragraph on the about page */
+#about-summary > p:first-child {
+    margin-top: 0;
+}
+
+.work-page-bottom-buttons {
+    margin-top: 4em;
+}
+
+#about-view-resume-button {
+    margin-top: 1em;
+}
+
+.center-aligned-text {
+    text-align: center;
+}
+
+@media (max-width: 50.75rem) {
+    .right-align-button {
+        text-align: left;
+    }
+}
+

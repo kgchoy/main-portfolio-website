@@ -1,0 +1,37 @@
+Title: About Me
+
+----
+
+About-Section:
+
+I'm currently studying at (link: http://www.sfu.ca text: Simon Fraser University) where I am majoring in (link: http://www.sfu.ca/siat.html text: Interactive Arts &amp; Technology) with a concentration in Interactive Systems and minoring in Computing Science. I have previously done co-op positions at (link: http://www.activenetwork.com/ text: ACTIVE Network) as an Email & Website Developer/Designer and (link: http://bccampus.ca/ text: BCcampus) as a Communications Research Assistant.
+
+I want to work on getting to know how current and potential users might use an interactive product throughout every step of the development process, from conceptualization to product evaluation. The success of organizations and their products is highly dependent on understanding the users' needs and wants. As a result, I believe that user research and usability testing is just as important as interaction design and designing the right user interface.
+
+I have had a lifelong interest in the study of human geography&mdash;particularly urban studies and the geography of transportation. This, too, has shaped my creative design process, as well as the types of design topics I explore.
+
+In my spare time, I also enjoy activities such as hiking, board &amp; tabletop games, badminton, and retrogaming. I am an active member and executive of the Burnaby Mountain Toastmasters public speaking club.
+
+----
+
+Skills-Section:
+
+## UX Design, Research &amp; Evaluation Skills
+- Persona &amp; scenario development
+- Use case modelling
+- Usability testing
+- Heuristic evaluation
+- Prototyping and wireframing (Balsamiq Mockups, Axure)
+- Rapid prototyping
+
+## Other Technical Skills
+- Responsive web design
+- Graphic and print design
+- Information design
+- Desktop, mobile, and web application development
+- Marketing and analytics
+
+----
+
+Profile-Image:
+(image: profile-picture.jpg alt: Photo of Kevin Choy)

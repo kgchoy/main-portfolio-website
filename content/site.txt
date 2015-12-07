@@ -1,0 +1,19 @@
+Title: Kevin Choy
+
+----
+
+Author: Kevin Choy
+
+----
+
+Description: The porfolio website of Kevin Choy, who specializes in user experience research, interaction design, and application development.
+
+----
+
+Keywords: Kevin Choy, portfolio, user experience research, user experience design, UX, interaction design, interaction design, software development, web development, web design, mobile development, designer, programmer
+
+----
+
+Copyright:
+
+&copy; (date: Year) Kevin Choy. Footer icons courtesy of (link: https://useiconic.com/open/ text: Open Iconic) and (link: http://www.socicon.com/ text: Socicon).

@@ -1,0 +1,92 @@
+Title: Notif Concept Mapping Tool
+
+----
+
+Categories: UX research &amp; development, usability testing, programming
+
+----
+
+Roles: User researcher, usability test designer and coordinator, prototype developer, technical writer
+
+----
+
+Time-Taken: 2015, two and a half months
+
+----
+
+Tools: Photoshop, Illustrator, Flash, UMLet
+
+----
+
+Collaborators:
+
+Artur Gimenes<br>
+Henry Lo<br>
+Colin To
+
+----
+
+About-Section:
+
+## About
+
+(vimeo: https://player.vimeo.com/126314801 width: 600 height: 440)
+
+This was a group project for a course that taught user-centred design and software design &amp; development methods. In our team of four, we conceptualized and created a prototype for Notif, a concept mapping tool targeted towards the academic teaching and learning domain.
+
+What sets this apart from existing brainstorming / mind-mapping tools is it is targeted towards the teaching and learning domain in education. For student collaborators, it supports real-time collaboration, and suggests connections between concepts based on the similarities between them. For mentors, such as course instructors, they have the ability to allow students to upload their concept maps to a central folder; our application may aggregate and view a list of the most used connections between concepts, and additionally mass publish feedback to students with those connection patterns.
+
+----
+
+Process-Section:
+
+## Process
+
+### Phase 1: Ideation, and Understanding Our Users and Application Domain
+
+During this phase, one of my main tasks in the group was to research methods for students to learn effectively, as well as existing concept mapping tools and what their deficiencies were. I found that existing concept mapping tools, such as (link: http://mind42.com/ text: Mind42), weren't very suitable for the teaching and learning domain. For students to think critically and ideate, collaboration with other peers, instructors, and mentors is important, as well as easily refer to rich media sources, such as video or audio, that are related the topic at hand. Existing tools lack the ability to do this.
+
+Furthermore, I worked with the rest of the group to create six scenarios in which existing tools and learning methods weren't effective, but our proposed idea would help. Such scenarios include:
+
+- A group of four students brainstorming for a team project
+- A high school teacher having his class construct a concept map, then giving out feedback to all his students
+
+
+### Phase 2: Designing the System
+
+During this phase, we collaboratively developed use cases to describe the flow of functions in which a user might do to accomplish a task.
+
+(image: use-case-2-phase-2.png alt: Use case 2: produce idea link: use-case-2-phase-2.png caption: An example of a use case)
+
+Furthermore, we also came up with the functional and non-functional requirements that our application would need to include, such as annotating a concept node and enabling live collaborative editing, respectively.
+
+Finally, we came up with UML diagrams to plan out how the components of our application would look like from a high-level technical point of view.
+
+(image: object-diagram-phase-2.png alt: The object diagram in UML form link: object-diagram-phase-2.png caption: The object diagram in UML form)
+
+(image: phase-2-screenshot.png alt: Screenshot of a mockup of use case 5: comment on ideas link: phase-2-screenshot.png caption: Screenshot of a Phase 2 mockup of use case 5: comment on ideas)
+
+
+### Phase 3: Prototype Development and Testing
+
+We continued to refine our specifications after the conclusion of Phase 2. For example, the feedback we received indicated that our use cases were too simplistic; we revised them, or created new ones, so that they would be more thorough.
+
+(image: class-diagram-phase-3.jpg alt: The revised class diagram link: class-diagram-phase-3.jpg caption: The revised class diagram)
+
+An idea that I pitched to add to the specifications was that, given a group for a class (e.g., the students in a university class), the application could intelligently aggregate and comment on association patterns. This would make it easy for a mentor to provide feedback to her students in situations where it wouldn't be practical for her to give feedback one-by-one &ndash; for example, if she is teaching a class of 200 students.
+
+(image: use-case-9-phase-3.png alt: Use case 9: aggregate and comment on association patterns link: use-case-9-phase-3.png caption: A newer use case that makes use of aggregation and commenting)
+
+(image: use-case-9-wireframe-phase-3.png alt: Image of the wireframe for the aggregation and commenting use case link: use-case-9-wireframe-phase-3.png caption: Wireframe for the aggregation and commenting use case)
+
+Due to time constraints, we weren't able to develop Notif into an actual application. However, we did create an interactive Flash prototype, which contained some of the use cases and functionality described in our specifications and wireframes. Afterwards, we conducted a usability testing session; I created the testing plan, was the lead facilitator for the tests, and compiled the report of results, findings, and recommendations for the future.
+
+(image: prototype-screenshot-phase-3.png alt: Screenshot of the Flash prototype link: prototype-screenshot-phase-3.png caption: Screenshot of the Flash prototype)
+
+----
+
+Outcomes-Section:
+
+## Outcomes
+
+I learned how to create use cases that are more specific to our target audience. I also gained a deeper understanding about how to design from a user's point of view rather than the developer, taking into consideration how the user might approach the tool with their needs and wants. I also got to apply the software development process / lifecycle, including practicing creating UML diagrams, such as object models and sequence diagrams. Finally, I am now more familiar with the teaching and learning domain, and the kinds of problems and potential solutions within the domain.
