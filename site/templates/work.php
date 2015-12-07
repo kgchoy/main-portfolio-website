@@ -12,36 +12,48 @@
 
         <div class="grid">
             <div class="col-1of3-work-sidebar" id="work-sidebar">
-                <h4>Links &amp; Resources</h4>
-
                 <section id="project-links-resources">
                     <?php echo $page->resources()->kirbytext() ?>
+
+                    <!-- https://forum.getkirby.com/t/checking-if-field-key-extsts-in-field-method/1323
+                         TO DO:
+                         - only display each section below if not empty
+                         - make sure there is no top margin 
+                    -->
+                    <!-- <?php echo 'isnotempty = ' . $page->categories()->isEmpty() ?> -->
                 </section>
 
-                <h4>Categories</h4>
-                <p>
-                    <?php echo $page->categories() ?>
-                </p>
+                    <?php echo '<h4>Categories</h4>
+                    <p>' . $page->categories() .
+                    '</p>
+                    '
+                    ?>
 
-                <h4>Roles</h4>
-                <p>
-                    <?php echo $page->roles() ?>
-                </p>
+                    <?php echo '<h4>Roles</h4>
+                    <p>' .
+                    $page->roles() .
+                    '</p>
+                    '
+                    ?>
 
-                <h4>Year / Time Taken</h4>
-                <p>
-                    <?php echo $page->time_taken() ?>
-                </p>
+                    <?php echo '<h4>Year / Time Taken</h4>
+                    <p>' . $page->time_taken() .
+                    '</p>
+                    '
+                    ?>
 
-                <h4>Relevant Programs and Tools</h4>
-                <p>
-                    <?php echo $page->tools() ?>
-                </p>
+                    <?php echo '<h4>Relevant Programs &amp; Tools</h4>
+                    <p>' . $page->tools() .
+                    '</p>
+                    '
+                    ?>
 
-                <h4>Collaborators</h4>
-                <p>
-                    <?php echo $page->collaborators() ?>
-                </p>
+                    <?php echo '<h4>Collaborators</h4>
+                    <p>' . $page->collaborators() .
+                    '</p>
+                    '
+                    ?>
+
             </div> <!-- ./col-1of3-work-sidebar -->
 
 
