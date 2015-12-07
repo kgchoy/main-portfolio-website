@@ -26,7 +26,7 @@ footer {
 
 
 /* Styling for the navigation button */
-.button-nav {
+.button-nav, #project-links-resources a {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
     display: inline-block;      /* make the button inline, but preserve block properties such as margins */
@@ -37,7 +37,7 @@ footer {
     text-decoration: none;      /* no underline */
 }
 
-.full-width-button {
+.full-width-button, #project-links-resources a {
     width: 100%;
     display: block;
     margin-top: 0.25em;
@@ -48,7 +48,7 @@ footer {
 
 /* Reduce horizontal button padding */
 @media (max-width: 65rem) {
-    .button-nav {
+    .button-nav, #project-links-resources a {
         padding: 0.65em 0.75em;
     }
 
@@ -59,17 +59,17 @@ footer {
 
 /* Reduce to thinner weight of font */
 @media (max-width: 40rem) {
-    .button-nav {
+    .button-nav, #project-links-resources a {
         font-family: 'Source Sans Pro', sans-serif;
     }
 }
 
-.menu-items-list .button-nav:hover {
+.menu-items-list .button-nav:hover, #project-links-resources a:hover {
     color: rgb(255, 0, 0);
 }
 
 /* For button hover stste */
-.button-nav:hover {
+.button-nav:hover, #project-links-resources a:hover {
     background-color: rgb(0, 93, 170);  /* a darker shade of blue as the background color of the button */
 }
 
@@ -194,7 +194,7 @@ a:hover {
     color: rgb(255, 0, 0);
 }
 
-.button-nav:hover {
+.button-nav:hover, #project-links-resources a:hover {
     color: rgb(255, 255, 255);
 }
 
@@ -421,7 +421,7 @@ ol li {
 }
 
 @media (max-width: 30.8rem) {
-    #nav-bar-right .button-nav {
+    #nav-bar-right .button-nav, #project-links-resources a {
         margin-top: 0;
         padding: 0.75em 0.75em;
         margin: 0;
@@ -440,7 +440,7 @@ ol li {
         padding-bottom: 0.4em;
     }
 
-    #nav-bar-right .button-nav {
+    #nav-bar-right .button-nav, #project-links-resources a {
         font-size: 1rem;
     }
 }
@@ -452,7 +452,7 @@ ol li {
         margin-top: 0.5rem;
     }
 
-    #nav-bar-right .button-nav {
+    #nav-bar-right .button-nav, #project-links-resources a {
         font-size: 0.875rem;
     }
 }

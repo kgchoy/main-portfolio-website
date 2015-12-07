@@ -4,7 +4,7 @@ Title: BCcampus.ca Usability Testing
 
 Resources:
 
-After I completed usability testing, I was tasked with compiling a report about procedures, findings, and recommendations. To prioritize the severities of the website's issues, I defined the (link: http://www.userfocus.co.uk/articles/redroutes.html text: red routes) of the website: which functionality was most important to the website, and what obstacles were impeding these routes? For example, I considered some of these issues, such as its difficult-to-use search function, were critical issues that a majority of our users had encountered and had to be fixed as soon as possible.
+(file: bccampus-website-usability-test-report.pdf text: View Full Usability Test Report)(link: http://bccampus.ca text: BCcampus.ca)
 
 ----
 

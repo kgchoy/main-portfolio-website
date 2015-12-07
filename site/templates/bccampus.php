@@ -14,14 +14,9 @@
             <div class="col-1of3-work-sidebar" id="work-sidebar">
                 <h4>Links &amp; Resources</h4>
 
-                <!-- idea: make a div and set everything to button-nav and full-width-button classes?
-                    create custom tag: http://getkirby.com/docs/advanced/kirbytext -->
-                <p>
-                <?php echo $page->resources()->kirbytext() ?>
-                </p>
-
-                <a class="button-nav full-width-button" href="<?php echo $page->files()->find('bccampus-website-usability-test-report.pdf')->url() ?>">View Full Usability Test Report&nbsp;&nbsp;&rsaquo;&rsaquo;</a>
-                <a class="button-nav full-width-button" href="http://bccampus.ca">BCcampus.ca&nbsp;&nbsp;&rsaquo;&rsaquo;</a>
+                <section id="project-links-resources">
+                    <?php echo $page->resources()->kirbytext() ?>
+                </section>
 
                 <h4>Categories</h4>
                 <p>
@@ -78,7 +73,7 @@
                                 // to go to the overall site root: url('../../home')
                                 // otherwise: $site->homePage()
                                 // or maybe loop to last item instead?: $page->first()
-                                echo '<a class="button-nav full-width-button center-aligned-text" href="' . $pages->children()->last()->url() . '">First Overall Work</a>';
+                                echo '<a class="button-nav full-width-button center-aligned-text" href="' . $pages->children()->last()->url() . '">Last Overall Work</a>';
                                 
                                 // echo $pages->children()->last();
                             }
@@ -93,7 +88,7 @@
                             }
 
                             else {
-                                echo '<a class="button-nav full-width-button center-aligned-text" href="' . $pages->children()->first()->url() . '">Last Overall Work</a>';
+                                echo '<a class="button-nav full-width-button center-aligned-text" href="' . $pages->children()->first()->url() . '">First Overall Work</a>';
                             }
                         ?>
                          
