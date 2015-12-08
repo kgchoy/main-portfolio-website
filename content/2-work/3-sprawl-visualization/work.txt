@@ -1,0 +1,61 @@
+Title: Urban Sprawl Visualization
+
+----
+
+Resources:
+
+(file: sprawl-visualization.html text: Go to Project)
+
+----
+
+Categories: Data visualization, information design, web programming
+
+----
+
+Roles: Programmer, visual analyst
+
+----
+
+Time-Taken: 2014, one month
+
+----
+
+Tools: JavaScript + D3.js, HTML, CSS, Illustrator, Tableau (for ideation)
+
+----
+
+Collaborators:
+
+Rosemarie Tat
+
+----
+
+About-Section:
+
+## About
+
+(image: sprawl-visualization-screenshot.jpg alt: Screenshot of the urban sprawl visualization link: sprawl-visualization.html)
+
+In our team of two, we created a visualization about urban sprawl in the United States. Our visualization is meant to help users understand the factors that influence urban sprawl, and what factors are common amongst cities with similar sprawl statistics. We split the coding and visualization design responsibilities equally. Our visualization was built using JavaScript, along with the D3.js data visualization library.
+
+----
+
+Process-Section:
+
+## Process
+
+We chose to use a dataset, in CSV format, containing data for 275 American metropolitan areas. Our job was then to decide the best way to visualize that data. We proposed different visualization methods, such as the two concepts below.
+
+(image: concepts.jpg alt: Two of the early concepts we proposed link: concepts.jpg caption: Two of the early concepts we proposed. Concept A made use of a map of the US, along with individual controls for filters, while Concept B used a gridmap, with the area of each rectangle representing the overall sprawl rating of a city.)
+
+However, as our ultimate goal was to allow users to quickly and easily compare cities and trends while reducing the amount of clutter and occlusion in the visualization, we decided to try something completely different. We instead made use of both a scatterplot and a star plot, which are linked together; the user may click on a city in the scatterplot to add it to the star plot. The scatterplot excels at viewing general trends of sprawl in the US overall, while the star plot allows for direct multivariate data comparison between individual cities. Both visualization components allows the user to highly customize the data; for example, the data variables representing the axes in both the scatterplot and the star plot are all customizable.
+
+----
+
+Outcomes-Section:
+
+## Outcomes
+
+I successfully applied my visual analytics theory and knowledge to create a visualization of trends and statistics of urban sprawl in the United States, and became more comfortable with JavaScript and the D3.js library in the process. Furthermore, as a group, we found a way to make highly technical data more accessible to non-technical users, making it easier to do comparisons without the need to care about the actual values. To a layperson, they may not care about the "centralized-sector employment 1977" value for Topeka, Kansas; the background details about what this value means can be confusing without background knowledge of geography and statistics. However, this variable may be useful when comparing its value relative to other cities.
+
+Finally, I suggested the idea to use this urban sprawl dataset to my teammate; I got the idea because of my strong interest in topics about human geography and urban studies. Throughout this project, I increased my knowledge regarding urban sprawl, the trends, and the factors that cause sprawl.

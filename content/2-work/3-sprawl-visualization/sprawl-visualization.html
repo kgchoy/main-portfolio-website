@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Urban Sprawl in the United States</title>
+
+    <!-- Tested to work with d3.js, version 3.5.5 -->
+    <script src="lib/d3.v3.min.js" charset="utf-8"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+    <h1>Urban Sprawl in the United States</h1>
+
+    <p>Urban sprawl is the unplanned spreading of urban development out towards fringes of the city. Our visualization helps users understand the factors that influence urban sprawl, and what factors are common amongst cities with similar sprawl statistics. It consists of two linked parts: a <a href="#scatterplot-svg-div">scatterplot</a> and a <a href="#starplot-svg-div">star plot</a>.</p>
+
+    <p><a href="#var-list">See Appendix A for a glossary of all variables.</a></p>
+
+    <!-- scatterplot -->
+    <div id="tooltip"></div>
+
+    <div id="tooltip-scatterplot"></div> <!-- tooltip for the scatterplot -->
+
+    <div class="visualization-row">
+
+        <div id="scatterplot-svg-div"></div>
+        
+        <div class="selection-panel">
+    
+            <div class="scatterplot-dropdown">
+                <label for="x-axis-select">x-axis:</label>
+
+                <select name="x-axis-select" id="x-axis-select">
+                    <option value="sprawl_1976_92" selected>sprawl_1976_92</option>
+                    <option value="sprawl_1992">sprawl_1992</option>
+                    <option value="sprawl_1976">sprawl_1976</option>
+                    <option value="central_empl_1977">central_empl_1977</option>
+                    <option value="avg_dec_popgr1920_70">avg_dec_popgr1920_70</option>
+                    <option value="pc_aquifer_msa">pc_aquifer_msa</option>
+                    <option value="elevat_range_msa">elevat_range_msa</option>
+                    <option value="ruggedness_msa">ruggedness_msa</option>
+                    <option value="cooling_dd">cooling_dd</option>
+                    <option value="heating_dd">heating_dd</option>
+                    <option value="rest_bars">rest_bars</option>
+                    <option value="road_density">road_density</option>
+                    <option value="popgr_1970_90">popgr_1970_90</option>
+                </select>
+            </div>
+
+            <div class="scatterplot-dropdown">
+                <label for="y-axis-select">y-axis:</label>
+
+                <select name="y-axis-select" id="y-axis-select">
+                    <option value="sprawl_1976_92">sprawl_1976_92</option>
+                    <option value="sprawl_1992">sprawl_1992</option>
+                    <option value="sprawl_1976">sprawl_1976</option>
+                    <option value="central_empl_1977" selected>central_empl_1977</option>
+                    <option value="avg_dec_popgr1920_70">avg_dec_popgr1920_70</option>
+                    <option value="pc_aquifer_msa">pc_aquifer_msa</option>
+                    <option value="elevat_range_msa">elevat_range_msa</option>
+                    <option value="ruggedness_msa">ruggedness_msa</option>
+                    <option value="cooling_dd">cooling_dd</option>
+                    <option value="heating_dd">heating_dd</option>
+                    <option value="rest_bars">rest_bars</option>
+                    <option value="road_density">road_density</option>
+                    <option value="popgr_1970_90">popgr_1970_90</option>
+                </select>
+            </div>
+
+            <div class="scatterplot-dropdown" id="color-dropdown">
+
+                <label for="color-value-select">Color:</label>
+
+                <select name="color-value-select" id="color-value-select">
+                    <option value="sprawl_1976_92" selected>sprawl_1976_92</option>
+                    <option value="sprawl_1992">sprawl_1992</option>
+                    <option value="sprawl_1976">sprawl_1976</option>
+                    <option value="central_empl_1977">central_empl_1977</option>
+                    <option value="avg_dec_popgr1920_70">avg_dec_popgr1920_70</option>
+                    <option value="pc_aquifer_msa">pc_aquifer_msa</option>
+                    <option value="elevat_range_msa">elevat_range_msa</option>
+                    <option value="ruggedness_msa">ruggedness_msa</option>
+                    <option value="cooling_dd">cooling_dd</option>
+                    <option value="heating_dd">heating_dd</option>
+                    <option value="rest_bars">rest_bars</option>
+                    <option value="road_density">road_density</option>
+                    <option value="popgr_1970_90">popgr_1970_90</option>
+                </select>
+
+                <!-- text describing min and max of the data shown by data, and are color-coded -->
+                <br>
+                <span id="gradient-min"></span><br>
+                <span id="gradient-max"></span>
+
+
+
+
+            </div>
+            <button type="button" onclick="updateAxes()">Update Scatterplot</button>
+
+            <hr>
+
+            <div class="scatterplot-dropdown" id="division-dropdown">
+
+                <label for="division-select">Filter by <a href="#divisions">census division</a>:</label>
+
+                <select name="division-select" id="division-select">
+                    <option value="0" selected>Show All Divisions</option>
+                    <option value="1">1. New England</option>
+                    <option value="2">2. Middle Atlantic</option>
+                    <option value="3">3. East North Central</option>
+                    <option value="4">4. West North Central</option>
+                    <option value="5">5. South Atlantic</option>
+                    <option value="6">6. East South Central</option>
+                    <option value="7">7. West South Central</option>
+                    <option value="8">8. Mountain</option>
+                    <option value="9">9. Pacific</option>
+                </select>
+
+                <button type="button" onclick="updateDivisionFilters()">Filter by Location</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- star plot -->
+    <div class="visualization-row">
+
+            <div id="starplot-svg-div"></div>
+
+            <div class="selection-panel">
+
+                <div class="starplot-dropdown">
+
+                    <label for="a-axis-select">a-axis:</label>
+
+                    <select name="a-axis-select" id="a-axis-select">
+                        <option value="sprawl_1976_92" selected>sprawl_1976_92</option>
+                        <option value="sprawl_1992">sprawl_1992</option>
+                        <option value="sprawl_1976">sprawl_1976</option>
+                        <option value="central_empl_1977">central_empl_1977</option>
+                        <option value="avg_dec_popgr1920_70">avg_dec_popgr1920_70</option>
+                        <option value="pc_aquifer_msa">pc_aquifer_msa</option>
+                        <option value="elevat_range_msa">elevat_range_msa</option>
+                        <option value="ruggedness_msa">ruggedness_msa</option>
+                        <option value="cooling_dd">cooling_dd</option>
+                        <option value="heating_dd">heating_dd</option>
+                        <option value="rest_bars">rest_bars</option>
+                        <option value="road_density">road_density</option>
+                        <option value="popgr_1970_90">popgr_1970_90</option>
+                    </select>
+                </div>
+
+                <div class="starplot-dropdown">
+
+                    <label for="b-axis-select">b-axis:</label>
+
+                    <select name="b-axis-select" id="b-axis-select">
+                        <option value="sprawl_1976_92">sprawl_1976_92</option>
+                        <option value="sprawl_1992">sprawl_1992</option>
+                        <option value="sprawl_1976">sprawl_1976</option>
+                        <option value="central_empl_1977" selected>central_empl_1977</option>
+                        <option value="avg_dec_popgr1920_70">avg_dec_popgr1920_70</option>
+                        <option value="pc_aquifer_msa">pc_aquifer_msa</option>
+                        <option value="elevat_range_msa">elevat_range_msa</option>
+                        <option value="ruggedness_msa">ruggedness_msa</option>
+                        <option value="cooling_dd">cooling_dd</option>
+                        <option value="heating_dd">heating_dd</option>
+                        <option value="rest_bars">rest_bars</option>
+                        <option value="road_density">road_density</option>
+                        <option value="popgr_1970_90">popgr_1970_90</option>
+                    </select>
+                </div>
+
+                <div class="starplot-dropdown">
+
+                    <label for="c-axis-select">c-axis:</label>
+
+                    <select name="c-axis-select" id="c-axis-select">
+                        <option value="sprawl_1976_92">sprawl_1976_92</option>
+                        <option value="sprawl_1992">sprawl_1992</option>
+                        <option value="sprawl_1976">sprawl_1976</option>
+                        <option value="central_empl_1977">central_empl_1977</option>
+                        <option value="avg_dec_popgr1920_70">avg_dec_popgr1920_70</option>
+                        <option value="pc_aquifer_msa">pc_aquifer_msa</option>
+                        <option value="elevat_range_msa">elevat_range_msa</option>
+                        <option value="ruggedness_msa" selected>ruggedness_msa</option>
+                        <option value="cooling_dd">cooling_dd</option>
+                        <option value="heating_dd">heating_dd</option>
+                        <option value="rest_bars">rest_bars</option>
+                        <option value="road_density">road_density</option>
+                        <option value="popgr_1970_90">popgr_1970_90</option>
+                    </select>
+                </div>
+
+                <div class="starplot-dropdown">
+
+                    <label for="d-axis-select">d-axis:</label>
+
+                    <select name="d-axis-select" id="d-axis-select">
+                        <option value="sprawl_1976_92">sprawl_1976_92</option>
+                        <option value="sprawl_1992">sprawl_1992</option>
+                        <option value="sprawl_1976">sprawl_1976</option>
+                        <option value="central_empl_1977">central_empl_1977</option>
+                        <option value="avg_dec_popgr1920_70">avg_dec_popgr1920_70</option>
+                        <option value="pc_aquifer_msa">pc_aquifer_msa</option>
+                        <option value="elevat_range_msa">elevat_range_msa</option>
+                        <option value="ruggedness_msa">ruggedness_msa</option>
+                        <option value="cooling_dd">cooling_dd</option>
+                        <option value="heating_dd">heating_dd</option>
+                        <option value="rest_bars">rest_bars</option>
+                        <option value="road_density" selected>road_density</option>
+                        <option value="popgr_1970_90">popgr_1970_90</option>
+                    </select>
+                </div>
+
+                <div class="starplot-dropdown">
+
+                    <label for="e-axis-select">e-axis:</label>
+
+                    <select name="e-axis-select" id="e-axis-select">
+                        <option value="sprawl_1976_92">sprawl_1976_92</option>
+                        <option value="sprawl_1992">sprawl_1992</option>
+                        <option value="sprawl_1976">sprawl_1976</option>
+                        <option value="central_empl_1977">central_empl_1977</option>
+                        <option value="avg_dec_popgr1920_70">avg_dec_popgr1920_70</option>
+                        <option value="pc_aquifer_msa">pc_aquifer_msa</option>
+                        <option value="elevat_range_msa">elevat_range_msa</option>
+                        <option value="ruggedness_msa">ruggedness_msa</option>
+                        <option value="cooling_dd">cooling_dd</option>
+                        <option value="heating_dd">heating_dd</option>
+                        <option value="rest_bars" selected>rest_bars</option>
+                        <option value="road_density">road_density</option>
+                        <option value="popgr_1970_90">popgr_1970_90</option>
+                    </select>
+                </div>
+
+                <button type="button" onclick="updateStarAxes()">Update Star Plot Axes</button>
+
+                <!--
+                <hr>
+                <button type="button" onclick="clearCities()">Remove All Cities</button>
+                -->
+
+            </div>
+
+    </div>
+
+    <h2 id="var-list">Appendix 1: Glossary of Sprawl Data Variables</h2>
+    
+    <ul>
+        <li><strong>msa_name: <a href="http://en.wikipedia.org/wiki/Metropolitan_statistical_area" target="_blank">metropolitan statistical area</a></strong> &ndash; urban areas with relatively high population density.</li>
+
+        <li><strong>sprawl_1976_92: Sprawl index for 1976-92 development.</strong> Percentage of land not developed by 1992 in the square kilometre around an average 1976-92 residential development in each metropolitan area.</li>
+
+        <li><strong>sprawl_1992: Sprawl index for 1992 development.</strong> Percentage of land not developed in the square kilometre around an average residential development in each metropolitan area in 1992.</li>
+
+        <li><strong>sprawl_1976: Sprawl index for 1976 development.</strong></li>
+
+        <li><strong>central_empl_1977: Centralized-sector employment 1977</strong>. Related to the mean percentage of metropolitan area employment for each <a href="http://en.wikipedia.org/wiki/Standard_Industrial_Classification" target="_blank">SIC sector</a> that is found within three miles of the central business district.</li>
+
+        <li><strong>avg_dec_popgr1920_70: Mean decennial percentage population growth 1920-70.</strong> Taken from data from the census conducted every ten years.</li>
+
+        <li><strong>pc_aquifer_fringe: Percentage of urban fringe overlaying fresh-water <a href="https://en.wikipedia.org/wiki/Aquifer" target="_blank">aquifers</a>.</strong> </li>
+
+        <li><strong>elevat_range_msa: Elevation range in the MSA (in metres).</strong> The difference between the maximum and the minimum elevation in the metropolitan area.</li>
+
+        <li><strong>ruggedness_msa: Terrain ruggedness index in the MSA (in metres).</strong> This is an index of the average terrain ruggedness that determines elevation of points 90 metres apart.</li>
+
+        <li><strong>cooling_dd: Mean cooling degree-days.</strong> Cooling degrees on a given day are zero if the average temperature is below 65&nbsp;&deg;F (about 18&nbsp;&deg;C) and the degrees by which the average temperature exceeds 65&nbsp;&deg;F otherwise.</li>
+
+        <li><strong>heating_dd: Mean heating degree-days.</strong> Mean annual heating degree days are similarly calculated by summing degrees below 65&nbsp;&deg;F over all days in a year.</li>
+
+        <li><strong>rest_bars: Bars and restaurants per thousand people.</strong></li>
+
+        <li><strong>road_density: Road density in metres per hectare.</strong> Metres of major road (interstate, other limited access, divided highway, other U.S. highway, other state primary highway, state secondary highway, improved road, parallel highway, toll road) per hectare.</li>
+
+        <li><strong>popgr_1970_90: Percentage of population growth between 1970-90.</strong></li>
+    </ul>
+
+    <h2 id="divisions">Appendix 2: Census Division Map</h2>
+        <img src="us-census-divisions.gif" alt="United States Census Divisions" width="650" height="407">
+        <cite>(Source: <a href="http://www1.ncdc.noaa.gov/pub/data/cmb/monitoring-references/maps/us-census-divisions.gif" target="_blank">noaa.gov</a>)</cite>
+
+    <h2 id="sources">Data Sources</h2>
+    <p>
+        We use the dataset originally created for the article "Causes of Sprawl: A Portrait from Space", published in the <em>Quarterly Journal of Economics</em> in May 2006. In particular, we make use of the <a href="http://diegopuga.org/data/sprawl/" target="_blank"><strong>companion website</strong></a> created by one of the article's authors, Diego Puga. His site contains a summary of the article, the CSV file we use that contains the raw data, and detailed descriptions of the data variables.
+    </p>
+
+    <!-- load our scripts here -->
+    <script src="script.js" type="text/javascript"></script>
+
+</body>
+
+</html>

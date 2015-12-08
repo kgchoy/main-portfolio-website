@@ -15,14 +15,8 @@
                 <?php
                     if ($page->resources()->isNotEmpty()) {
                         echo '<section id="project-links-resources">';
+                        echo '<h4>Links &amp; Resources</h4>';
                         echo $page->resources()->kirbytext();
-
-                        // <!-- https://forum.getkirby.com/t/checking-if-field-key-extsts-in-field-method/1323
-                        //      TO DO:
-                        //      - only display each section below if not empty
-                        //      - make sure there is no top margin 
-                        // -->
-                        // <?php echo 'isnotempty = ' . $page->categories()->isEmpty()
                         echo '</section>';
                     }
 
@@ -102,11 +96,6 @@
                                 echo '<a class="button-nav full-width-button center-aligned-text" href="' . $pages->children()->first()->url() . '">First Overall Work</a>';
                             }
                         ?>
-                         
-<!--                         <?php if($next = $page->nextVisible()): ?>
-                            <a class="button-nav full-width-button center-aligned-text" href="<?php echo $page->next()->url() ?>">Next Work: Notif</a>
-                        <?php endif ?> -->
-
 
                     </div>
                 </div> <!-- ./work-page-bottom-buttons -->
