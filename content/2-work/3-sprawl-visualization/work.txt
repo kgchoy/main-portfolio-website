@@ -4,7 +4,7 @@ Title: Urban Sprawl Visualization
 
 Resources:
 
-(file: sprawl-visualization.html text: Go to Project)
+(link: work/sprawl-visualization/visualization/index.html text: Go to Project)
 
 ----
 
@@ -34,7 +34,7 @@ About-Section:
 
 ## About
 
-(image: sprawl-visualization-screenshot.jpg alt: Screenshot of the urban sprawl visualization link: sprawl-visualization.html)
+(image: sprawl-visualization-screenshot.jpg alt: Screenshot of the urban sprawl visualization link: work/sprawl-visualization/visualization/index.html)
 
 In our team of two, we created a visualization about urban sprawl in the United States. Our visualization is meant to help users understand the factors that influence urban sprawl, and what factors are common amongst cities with similar sprawl statistics. We split the coding and visualization design responsibilities equally. Our visualization was built using JavaScript, along with the D3.js data visualization library.
 
