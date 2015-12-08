@@ -12,47 +12,46 @@
 
         <div class="grid">
             <div class="col-1of3-work-sidebar" id="work-sidebar">
-                <section id="project-links-resources">
-                    <?php echo $page->resources()->kirbytext() ?>
+                <?php
+                    if ($page->resources()->isNotEmpty()) {
+                        echo '<section id="project-links-resources">';
+                        echo $page->resources()->kirbytext();
 
-                    <!-- https://forum.getkirby.com/t/checking-if-field-key-extsts-in-field-method/1323
-                         TO DO:
-                         - only display each section below if not empty
-                         - make sure there is no top margin 
-                    -->
-                    <!-- <?php echo 'isnotempty = ' . $page->categories()->isEmpty() ?> -->
-                </section>
+                        // <!-- https://forum.getkirby.com/t/checking-if-field-key-extsts-in-field-method/1323
+                        //      TO DO:
+                        //      - only display each section below if not empty
+                        //      - make sure there is no top margin 
+                        // -->
+                        // <?php echo 'isnotempty = ' . $page->categories()->isEmpty()
+                        echo '</section>';
+                    }
 
-                    <?php echo '<h4>Categories</h4>
-                    <p>' . $page->categories() .
-                    '</p>
-                    '
-                    ?>
+                    if ($page->categories()->isNotEmpty()) {
+                        echo '<h4>Categories</h4>
+                        <p>' . $page->categories() . '</p>';
+                    }
 
-                    <?php echo '<h4>Roles</h4>
-                    <p>' .
-                    $page->roles() .
-                    '</p>
-                    '
-                    ?>
+                    if ($page->roles()->isNotEmpty()) {
+                        echo '<h4>Roles</h4>
+                        <p>' . $page->roles() . '</p>';
+                    }
 
-                    <?php echo '<h4>Year / Time Taken</h4>
-                    <p>' . $page->time_taken() .
-                    '</p>
-                    '
-                    ?>
+                    if ($page->time_taken()->isNotEmpty()) {
+                        echo '<h4>Year / Time Taken</h4>
+                        <p>' . $page->time_taken() . '</p>';
+                    }
 
-                    <?php echo '<h4>Relevant Programs &amp; Tools</h4>
-                    <p>' . $page->tools() .
-                    '</p>
-                    '
-                    ?>
+                    if ($page->tools()->isNotEmpty()) {
+                        echo '<h4>Relevant Programs &amp; Tools</h4>
+                        <p>' . $page->tools() . '</p>';
+                    }
 
-                    <?php echo '<h4>Collaborators</h4>
-                    <p>' . $page->collaborators() .
-                    '</p>
-                    '
-                    ?>
+                    if ($page->collaborators()->isNotEmpty()) {
+                        echo '<h4>Collaborators</h4>
+                        <p>' . $page->collaborators() . '</p>';
+                    }
+
+                ?>
 
             </div> <!-- ./col-1of3-work-sidebar -->
 
