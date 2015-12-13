@@ -57,6 +57,10 @@
     padding-top: 0.25em;
 }
 
+.main-page-work-row {
+    clear: both;
+}
+
 
 @media (max-width: 70rem) {
     .main-page-work-grid .col-1of3-work-main {
