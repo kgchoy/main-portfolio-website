@@ -91,17 +91,17 @@
                                 <div class="col-1of3-work-figure">
                                     <div class="main-work-listing-figure">
                                         <figure class="notif-image">
-                                            <a href="<?php echo page('work/notif') ?>"><img class="work-listing-img" src="content/home/notif-thumb.png" alt="Notif use case screenshot"></a>
+                                            <a href="<?php echo page('work/active-network-responsive-emails') ?>"><img class="work-listing-img" src="content/home/active-network-email-cropped.jpg" alt="Desktop and mobile views of an email"></a>
                                         </figure>
                                     </div> <!-- ./main-work-listing-figure -->
                                 </div> <!-- ./col-1of3-work-figure -->
 
                                 <div class="col-2of3-work-description">
                                     <div class="work-description">
-                                        <h3><a href="<?php echo page('work/notif') ?>">Notif Concept Mapping Tool</a></h3>
-                                        <em>UX research &amp; development &bull; usability testing &bull; programming</em>
+                                        <h3><a href="<?php echo page('work/active-network-responsive-emails') ?>">ACTIVE Network Responsive Emails</a></h3>
+                                        <em>Responsive email design &amp; development &bull; visual design &bull; marketing</em>
                                         <p>
-                                            Prototyped a concept mapping tool targeted towards the academic teaching and learning domain. The design and functionality of our tool was heavily use-case and scenario-driven.
+                                            Hand-coded a series of responsive, mobile-friendly marketing emails.
                                         </p>
 
                                     </div> <!-- ./work-description -->
