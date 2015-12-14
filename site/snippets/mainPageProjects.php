@@ -101,7 +101,7 @@
                                         <h3><a href="<?php echo page('work/notif') ?>">Notif Concept Mapping Tool</a></h3>
                                         <em>UX research &amp; development &bull; usability testing &bull; programming</em>
                                         <p>
-                                            Prototyping a concept mapping tool targeted towards the academic teaching and learning domain. The design and functionality of our tool was heavily use-case and scenario-driven.
+                                            Prototyped a concept mapping tool targeted towards the academic teaching and learning domain. The design and functionality of our tool was heavily use-case and scenario-driven.
                                         </p>
 
                                     </div> <!-- ./work-description -->

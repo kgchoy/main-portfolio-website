@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title><?php echo $site->title()->html() ?> &ndash; <?php echo $site->title()->html() ?></title>
+    <title><?php echo $page->title()->html() ?> &ndash; <?php echo $site->title()->html() ?></title>
     <meta name="description" content="<?php echo $site->description()->html() ?>">
     <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
 
@@ -28,7 +28,7 @@
                 <div id="nav-bar-main">
                     <div id="nav-bar-left">
                         <div id="nav-bar-logo">
-                            <a class="logo" href="<?php echo url() ?>">
+                            <a class="logo" href="<?php echo $site->url() ?>">
                                 <img src="<?php echo url('assets/images/logo.png') ?>" alt="Site logo" width="49" height="49">
                             </a>
 

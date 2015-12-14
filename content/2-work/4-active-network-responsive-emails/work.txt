@@ -4,7 +4,7 @@ Title: ACTIVE Network Responsive Marketing Emails
 
 Resources:
 
-(link: work/active-network-responsive-emails/ldwf-newsletter-template/index.html text: View Email 1)(link: work/active-network-responsive-emails/ldwf-ready-when-u-are/index.html text: View Email 2)(link: work/active-network-responsive-emails/rgov-newsletter-template/index.html text: View Email 3)
+(link: work/active-network-responsive-emails/ldwf-newsletter-template/index.html text: View Email 1 Demo target: _blank)(link: work/active-network-responsive-emails/ldwf-ready-when-u-are/index.html text: View Email 2 Demo target: _blank)(link: work/active-network-responsive-emails/rgov-newsletter-template/index.html text: View Email 3 Demo target: _blank)
 
 
 ----
@@ -17,7 +17,7 @@ Roles: Visual designer, web coder
 
 ----
 
-Time-Taken: 2014, a few hours to one week (per email)
+Time-Taken: 2014, a few hours to a few days (per email)
 
 ----
 
@@ -25,11 +25,15 @@ Tools: HTML5, CSS3, Campaign Monitor
 
 ----
 
+Collaborators: Individual
+
+----
+
 About-Section:
 
 ## About
 
-(image: active-network-email-1.jpg alt: Email 1 screenshots caption: Email 1 on Mozilla Thunderbird desktop email client vs. the default Email app on Android. The desktop three-column layout collapses into a single-column layout on mobile.)
+(image: active-network-email-1.jpg alt: Email 1 screenshots &ndash; Mozilla Thunderbird vs. Android caption: Email 1 on Mozilla Thunderbird desktop email client vs. the default Email app on Android. The desktop three-column layout collapses into a single-column layout on mobile.)
 
 One of the responsibilities that ACTIVE Network is involved with is to provide online campsite registration services for several numerous state and federal campgrounds in the United States, such as the National Park Service and the Louisiana Department of Wildlife and Fisheries. During my 8-month co-op term there, one of the tasks that I took on was to create a series of responsive, mobile-friendly marketing emails and templates for that department of the company. These were mainly based off of the designs of their existing non-responsive emails, but part of this task was to also revise their designs, often adding in elements such as social media icons.
 
@@ -41,7 +45,7 @@ Process-Section:
 
 ## Process
 
-For each email, I was given their existing non-responsive three-column email template for their HTML newsletter. My task was to change it to make it responsive for devices that support viewing responsive emails. To experiment with how it should look on mobile devices, I quickly drew wireframes on paper to experiment. Then, I coded a new template from scratch using a text editor, incorporating the former design elements into the new one. Next, I put the email design through rigorous testing; I uploaded it to Campaign Monitor and sent it to different email addresses, viewing them on as many clients &ndash; both on desktop and mobile &ndash; as possible. I worked closely with my market manager to ensure that the design was built to specifications and that she was happy with the design.
+For each email, I was given their existing non-responsive three-column email template for their HTML newsletter. My task was to change it to make it responsive for devices that support viewing responsive emails. To experiment with how it should look on mobile devices, I quickly drew wireframes on paper to experiment. Then, I coded a new template from scratch using a text editor, incorporating the former design elements into the new one. Next, I put the email design through rigorous testing; I uploaded it to (link: https://www.campaignmonitor.com/ text: Campaign Monitor target: _blank) and sent it to different email addresses, viewing them on as many clients &ndash; both on desktop and mobile &ndash; as possible. I worked closely with my market manager to ensure that the design was built to specifications and that she was happy with the design.
 
 ----
 
@@ -49,4 +53,4 @@ Outcomes-Section:
 
 ## Outcomes
 
-Responsive emails combine the complexities of both responsive web design and email design: grids and media queries must be combined with table-based design layouts. To prepare for creating the first email, I took on the initiative to quickly learn how to create responsive emails, based on my existing combined knowledge of creating non-responsive emails and valid responsive web pages in HTML5/CSS3. This design worked with all popular email clients, and the market manager was very satisfied with the outcome. I later took on additional responsive emails to work on, which allowed me to get better at it &ndash; the time it took me to create and test one was reduced from about a week, down to a few hours.
+Responsive emails combine the complexities of both responsive web design and email design, because grids and media queries must be combined with table-based design layouts. To prepare for creating the first email, I took on the initiative to quickly learn how to create responsive emails, based on my existing combined knowledge of creating non-responsive emails and valid responsive web pages in HTML5/CSS3. This design worked with all popular email clients, and the market manager was very satisfied with the quality of the email designs. I later took on additional responsive emails to work on, which allowed me to get better at it &ndash; the time it took me to create and test one email was reduced from a few days (on and off, while working on other projects at the same time), down to a few hours.
