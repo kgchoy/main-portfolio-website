@@ -4,7 +4,7 @@ Title: ACTIVE Network Responsive Marketing Emails
 
 Resources:
 
-(link: work/active-network-responsive-emails/ldwf-newsletter-template/index.html text: View Email 1 Demo target: _blank)(link: work/active-network-responsive-emails/ldwf-ready-when-u-are/index.html text: View Email 2 Demo target: _blank)(link: work/active-network-responsive-emails/rgov-newsletter-template/index.html text: View Email 3 Demo target: _blank)
+(link: work/active-network-responsive-emails/ldwf-newsletter-template/index.html text: View Email 1 Demo)(link: work/active-network-responsive-emails/ldwf-ready-when-u-are/index.html text: View Email 2 Demo)(link: work/active-network-responsive-emails/rgov-newsletter-template/index.html text: View Email 3 Demo)
 
 
 ----
@@ -45,7 +45,7 @@ Process-Section:
 
 ## Process
 
-For each email, I was given their existing non-responsive three-column email template for their HTML newsletter. My task was to change it to make it responsive for devices that support viewing responsive emails. To experiment with how it should look on mobile devices, I quickly drew wireframes on paper to experiment. Then, I coded a new template from scratch using a text editor, incorporating the former design elements into the new one. Next, I put the email design through rigorous testing; I uploaded it to (link: https://www.campaignmonitor.com/ text: Campaign Monitor target: _blank) and sent it to different email addresses, viewing them on as many clients &ndash; both on desktop and mobile &ndash; as possible. I worked closely with my market manager to ensure that the design was built to specifications and that she was happy with the design.
+For each email, I was given their existing non-responsive three-column email template for their HTML newsletter. My task was to change it to make it responsive for devices that support viewing responsive emails. To experiment with how it should look on mobile devices, I quickly drew wireframes on paper to experiment. Then, I coded a new template from scratch using a text editor, incorporating the former design elements into the new one. Next, I put the email design through rigorous testing; I uploaded it to (link: https://www.campaignmonitor.com/ text: Campaign Monitor) and sent it to different email addresses, viewing them on as many clients &ndash; both on desktop and mobile &ndash; as possible. I worked closely with my market manager to ensure that the design was built to specifications and that she was happy with the design.
 
 ----
 
