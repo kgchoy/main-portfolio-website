@@ -47,7 +47,7 @@
                                         <h3><a href="<?php echo page('work/notif') ?>">Notif Concept Mapping Tool</a></h3>
                                         <em>UX research &amp; development &bull; usability testing &bull; programming</em>
                                         <p>
-                                            Prototyping a concept mapping tool targeted towards the academic teaching and learning domain. The tool's design and functionality was heavily use-case and scenario-driven.
+                                            Prototyped a concept mapping tool targeted towards the academic teaching and learning domain. The tool's design and functionality was heavily use-case and scenario-driven.
                                         </p>
 
                                     </div> <!-- ./work-description -->
@@ -73,7 +73,7 @@
                                         <h3><a href="<?php echo page('work/sprawl-visualization') ?>">Urban Sprawl Visualization</a></h3>
                                         <em>data visualization &bull; information design &bull; web programming</em>
                                         <p>
-                                            Visualization about urban sprawl statistics in the United States, built using JavaScript.
+                                            Visualization about urban sprawl statistics in the United States, built in JavaScript.
                                         </p>
 
                                     </div> <!-- ./work-description -->
@@ -99,7 +99,7 @@
                                 <div class="col-2of3-work-description">
                                     <div class="work-description">
                                         <h3><a href="<?php echo page('work/active-network-responsive-emails') ?>">ACTIVE Network Responsive Emails</a></h3>
-                                        <em>Responsive email design &amp; development &bull; visual design &bull; marketing</em>
+                                        <em>responsive email design &amp; development &bull; visual design &bull; marketing</em>
                                         <p>
                                             Hand-coded a series of responsive, mobile-friendly marketing emails.
                                         </p>
@@ -117,17 +117,17 @@
                                 <div class="col-1of3-work-figure">
                                     <div class="main-work-listing-figure">
                                         <figure class="notif-image">
-                                            <a href="<?php echo page('work/notif') ?>"><img class="work-listing-img" src="content/home/notif-thumb.png" alt="Notif use case screenshot"></a>
+                                            <a href="<?php echo page('work/empire-noodles-brand-design') ?>"><img class="work-listing-img" src="content/home/empire-noodles-thumbnail.png" alt="Empire Noodles logo"></a>
                                         </figure>
                                     </div> <!-- ./main-work-listing-figure -->
                                 </div> <!-- ./col-1of3-work-figure -->
 
                                 <div class="col-2of3-work-description">
                                     <div class="work-description">
-                                        <h3><a href="<?php echo page('work/notif') ?>">Notif Concept Mapping Tool</a></h3>
-                                        <em>UX research &amp; development &bull; usability testing &bull; programming</em>
+                                        <h3><a href="<?php echo page('work/empire-noodles-brand-design') ?>">Empire Noodles Brand Identity Design</a></h3>
+                                        <em>graphic design &bull; brand identity design</em>
                                         <p>
-                                            Prototyping a concept mapping tool targeted towards the academic teaching and learning domain. The design and functionality of our tool was heavily use-case and scenario-driven.
+                                            Designed a brand identity for a noodle shop.
                                         </p>
 
                                     </div> <!-- ./work-description -->

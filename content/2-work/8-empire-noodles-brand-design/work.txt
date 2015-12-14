@@ -36,9 +36,9 @@ Process-Section:
 
 ## Process
 
-All of our design elements &ndash; colours, typefaces, symbolism, and so forth &ndash; reinforced our mission statement: "To serve delicious, traditional hand-made noodles at a low price, while maintaining fast and reliable service." For example, the king and his crown on the logo represented high prestige, symbolic of the high quality of our menu offerings. At the same time, the comedic, cartoon-style logo implied casualness (due to the food court setting).
+Our logo's denotations and connotations were chosen to reinforce our mission statement: "To serve delicious, traditional hand-made noodles at a low price, while maintaining fast and reliable service." For example, the king and his crown represented high prestige, symbolic of the high quality of our menu offerings. At the same time, the comedic, cartoon-style logo implied casualness (due to the food court location). The main colours in the logo were based on the major prestigious colours in Chinese culture.
 
-In our team of two, responsibilities during the ideation process were evenly split; I did research for company ideas and target audiences, and sketched logo ideas. However, I played a larger role with the final deliverables, in which I created the high-fidelity logo and branding application graphics.
+The logo ideation process required rapid sketching to discover which logo was the best option, followed by creating versions of our more preferred sketches in Illustrator. I contributed to all stages of the design process, with heavier involvement during the later vector design stages.
 
 (image: sketches.jpg alt: Picture of sketches caption: Sketches I drew during the early ideation process)
 
