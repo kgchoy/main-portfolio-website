@@ -1,0 +1,94 @@
+Title: Community Builder
+
+----
+
+Resources:
+
+(link: work/community-builder/prototype/index.html text: View Interactive Prototype target: _blank) _(Note: The prototype was designed for mobile devices with a resolution of 1440x2560. You will likely need to zoom out in your browser to view it clearly.)_
+
+----
+
+Categories: UX/UI design, interaction design, user research, usability testing
+
+----
+
+Roles: Interface &amp; interaction designer, user researcher, usability test designer and coordinator
+
+----
+
+Time-Taken: 2015, 7 weeks
+
+----
+
+Tools: Axure RP, Illustrator, Photoshop, After Effects
+
+----
+
+Collaborators:
+
+Henri dela Cruz<br>
+Anastasia Sidorenko<br>
+Jamie Smith
+
+----
+
+About-Section:
+
+## About
+(vimeo: https://vimeo.com/147521491 width: 600 height: 338)
+
+As part of the final project for our Interface Design course, our team of four developed the interface and interactions for an Android app that allows people to organize, search, and volunteer for community events within their neighbourhoods, promoting physical community engagement through digital means.
+
+(image: banner-image.jpg alt: Two screenshots)
+
+----
+
+Process-Section:
+
+## Process
+
+### Ideation &amp; Research
+
+Our team wanted to explore how to solve the problem of social isolation within Vancouver communities. During this stage, I researched causes and solutions to social isolation. A quote from a (link: http://www.theglobeandmail.com/life/life-of-solitude-a-loneliness-crisis-is-looming/article15573187/ text: "Life of solitude: A loneliness crisis is looming", an article by The Globe and Mail) became the inspiration to our idea that building a sense of community should ideally start from the bottom up, with ordinary residents attending, volunteering for, and organizing events, and that each of those aspects are equally important:
+
+> _"The Vancouver Foundation has another answer: It is giving out grants of $500 to people who will organize a community event that brings strangers together &ndash; a knitting circle, an origami workshop, a pumpkin-carving jamboree. Mr. McCort attended one gathering recently, and was struck by an unfamiliar sight: "No one was on their phone, or checking email. There were a hundred people, just talking and making new friends.""_
+
+(image: sketches-process.jpg alt: Interface sketches caption: My interface sketches from early on in the design process. link: work/community-builder/sketches-process.jpg)
+
+### User Experience
+
+It's not enough to make the interface look visually appealing, of course. A lot of work went into figuring out user task flows, and how our users will experience our app. For example:
+- Who are the primary users?
+- What are their tasks and goals?
+- How will our app's interface help accomplish them?
+
+(image: whiteboard-scrum.jpg alt: Four whiteboards caption: We often did whiteboard scrums to allow everyone to write or draw ideas at the same time. link: work/community-builder/whiteboard-scrum.jpg)
+
+(image: journey-map.png alt: Journey map for two personas caption: A journey map for two separate personas. Click to enlarge. link: work/community-builder/journey-map.png)
+
+### Prototyping
+
+Using Axure RP, I created the majority of the high-fidelity prototypes. Since I already had experience working with Axure in the past, I also implemented mobile scrolling, interaction states, heavy use of Axure variables to keep track of the system state, and so on. The visual design is based off of Android's material design language. The prototype matched the actual resolution of an Android phone (LG G3, specifically), and thus was able to create a prototype that looked and behaved almost exactly like a real app once it was loaded on the phone using the (link: http://www.axure.com/learn/axshare/app text: AxShare app).
+
+(image: prototyping-process.jpg alt: The prototyping process caption: Iterative changes of the interface design over several weeks. The final row incorporated changes as a result of usability testing. link: work/community-builder/prototyping-process.jpg)
+
+### Usability Testing
+Near the later stages of the project, we conducted a usability test with five participants. We gave participants an Android phone with the prototype loaded on it, and had them complete a scenario consisting of four tasks. To get a broad range of feedback, three of the participants we recruited had experience planning community events, while two participants never organized any before, but want to attend community events.
+
+We found a number of usability issues. Most crucially:
+- Inconsistent navigation and buttons
+- Lack of sufficient visual feedback, such as pop-up confirmation
+- Lack of labels for some icons made it hard to tell what they meant
+- We didn't anticipate certain actions, causing partially broken workflows in some cases; for example, one participant wanted to postpone uploading a profile image until after account creation
+
+We then used these issues as points for improvement for our final prototypes.
+
+----
+
+Outcomes-Section:
+
+## Outcomes
+
+Although I had past experience using Axure, I discovered that it was a far more capable prototyping tool than I thought. For example, I now have a lot more skill working with dynamic panels, Axure variables, and so on. Furthermore, I greatly improved my interaction design and visual design skills, with a higher level of knowledge about user goals and needs, hierarchy, typography, and branding.
+
+It was a pleasure getting to learn more about the topic of community building, and getting to do usability tests with people who have planned community events. I do believe that an app like this could succeed if it was actually built as a mobile app and released. The volunteerism aspect, while a small feature, is emphasized enough that it would make it stand out amongst other existing event planning platforms.

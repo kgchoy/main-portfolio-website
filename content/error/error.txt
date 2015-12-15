@@ -4,4 +4,4 @@ Title: Error
 
 Text:
 
-## File or page not found!
+## Sorry, file or page not found!
