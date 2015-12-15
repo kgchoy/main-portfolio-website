@@ -70,7 +70,7 @@
                     <div class="body-gridCol-1of2">
                         <?php
                             if ($prev = $page->prevVisible()) {
-                                echo '<a class="button-nav full-width-button center-aligned-text" href="' . $page->prev()->url() . '">Previous Work</a>';
+                                echo '<a class="button-nav full-width-button center-aligned-text" href="' . $page->prev()->url() . '">&laquo;&nbsp; Go to Previous Work</a>';
                             }
                             else {
                                 // homePage(): http://getkirby.com/docs/cheatsheet/site/home-page
@@ -78,7 +78,7 @@
                                 // to go to the overall site root: url('../../home')
                                 // otherwise: $site->homePage()
                                 // or maybe loop to last item instead?: $page->first()
-                                echo '<a class="button-nav full-width-button center-aligned-text" href="' . $pages->children()->last()->url() . '">Last Overall Work</a>';
+                                echo '<a class="button-nav full-width-button center-aligned-text" href="' . $pages->children()->last()->url() . '">&laquo;&nbsp; Go to Last Overall Work</a>';
                                 
                                 // echo $pages->children()->last();
                             }
@@ -89,11 +89,11 @@
                     <div class="body-gridCol-2of2">
                         <?php
                             if ($prev = $page->nextVisible()) {
-                                echo '<a class="button-nav full-width-button center-aligned-text" href="' . $page->next()->url() . '">Next Work</a>';
+                                echo '<a class="button-nav full-width-button center-aligned-text" href="' . $page->next()->url() . '">Go to Next Work &nbsp;&raquo;</a>';
                             }
 
                             else {
-                                echo '<a class="button-nav full-width-button center-aligned-text" href="' . $pages->children()->first()->url() . '">First Overall Work</a>';
+                                echo '<a class="button-nav full-width-button center-aligned-text" href="' . $pages->children()->first()->url() . '">Go to First Overall Work &nbsp;&raquo;</a>';
                             }
                         ?>
 
