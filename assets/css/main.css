@@ -487,6 +487,10 @@ figcaption {
     margin: 0 auto;
 }
 
+#nav-bar-main {
+    margin-top: 0.2em;
+}
+
 @media(max-width: 87rem) {
     #page-container, #nav-bar-main, #footer-bar-main {
         width: 100%;
