@@ -42,9 +42,9 @@
                     </div> <!-- ./nav-bar-left -->
                     <div id="nav-bar-right">
                         <ul class="menu-items-list">
-                            <li><a class="button-nav button-header-nav" href="<?php echo page('about') ?>">About</a></li>
-                            <li><a class="button-nav button-header-nav" href="<?php echo page('home') . '#featured-work' ?>">Work</a></li>
-                            <li><a class="button-nav button-header-nav" href="<?php echo page('home') . '#contact-me' ?>">Contact</a></li>
+                            <li><a class="button-nav button-header-nav" href="<?php echo $site->url() . '/' . page('about') ?>">About</a></li>
+                            <li><a class="button-nav button-header-nav" href="<?php echo $site->url() . '#featured-work' ?>">Work</a></li>
+                            <li><a class="button-nav button-header-nav" href="<?php echo $site->url() . '#contact-me' ?>">Contact</a></li>
                         </ul>
 
                     </div> <!-- ./nav-bar-right -->
