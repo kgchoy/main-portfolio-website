@@ -4,9 +4,11 @@ Title: About Me
 
 About-Section:
 
-I'm currently studying at (link: http://www.sfu.ca text: Simon Fraser University) where I am majoring in (link: http://www.sfu.ca/siat.html text: Interactive Arts &amp; Technology) with a concentration in Interactive Systems and minoring in Computing Science. I have previously done co-op positions at (link: http://www.activenetwork.com/ text: ACTIVE Network) as an Email & Website Developer/Designer and (link: http://bccampus.ca/ text: BCcampus) as a Communications Research Assistant.
+Hello, and welcome! My name is Kevin Choy, and I am a user experience designer, developer, and researcher.
 
 I want to work on getting to know how current and potential users might use an interactive product throughout every step of the development process, from conceptualization to product evaluation. The success of organizations and their products is highly dependent on understanding the users' needs and wants. As a result, I believe that user research and usability testing is just as important as interaction design and designing the right user interface.
+
+I studied at (link: http://www.sfu.ca text: Simon Fraser University), where I majored in (link: http://www.sfu.ca/siat.html text: Interactive Arts &amp; Technology) with a concentration in Interactive Systems and minored in Computing Science. I have previously done co-op positions at (link: http://www.activenetwork.com/ text: ACTIVE Network) as an Email & Website Developer/Designer and (link: http://bccampus.ca/ text: BCcampus) as a Communications Research Assistant. I completed my degree requirements in December 2015, and will be officially convocating in June 2016.
 
 I have had a lifelong interest in the study of human geography&mdash;particularly urban studies and the geography of transportation. This, too, has shaped my creative design process, as well as the types of design topics I explore.
 
@@ -21,7 +23,7 @@ Skills-Section:
 - Use case modelling
 - Usability testing
 - Heuristic evaluation
-- Prototyping and wireframing (Balsamiq Mockups, Axure)
+- Prototyping and wireframing (Balsamiq Mockups, Axure RP)
 - Rapid prototyping
 
 ## Other Technical Skills

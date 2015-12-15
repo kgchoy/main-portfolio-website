@@ -118,12 +118,12 @@ input {
 }
 
 #site-name {
-    color: rgb(0, 155, 223);
+    /* color: rgb(0, 155, 223);
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 2.5rem; */
     float: left;
-    margin-left: 0.1em;
+    margin-left: 0.4em;
 }
 
 
@@ -448,7 +448,7 @@ ol li {
 /* text and interactive elements for very small screens */
 @media (max-width: 23rem) {
     #site-name {
-        font-size: 2rem;
+        /* font-size: 2rem; */
         margin-top: 0.5rem;
     }
 

@@ -33,7 +33,12 @@
                             </a>
 
                         </div>
-                        <div id="site-name"><a href="<?php echo url() ?>">evin Choy</a></div>
+                        <div id="site-name">
+                        <a class="logo" href="<?php echo $site->url() ?>">
+                            <img src="<?php echo url('assets/images/logo-name.png') ?>" alt="Kevin Choy" width="194" height="49">
+                        </a>
+                        </div>
+                        <!-- <div id="site-name"><a href="<?php echo url() ?>">evin Choy</a></div> -->
                     </div> <!-- ./nav-bar-left -->
                     <div id="nav-bar-right">
                         <ul class="menu-items-list">
