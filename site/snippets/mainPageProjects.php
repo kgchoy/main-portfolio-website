@@ -5,6 +5,33 @@
                 <div class="grid">
 
                     <div class="main-page-work-row">
+
+                        <!-- item 6 -->
+                        <div class="main-page-work-grid">
+                            <div class="col-1of3-work-main">
+                                
+                                <div class="col-1of3-work-figure">
+                                    <div class="main-work-listing-figure">
+                                        <figure class="notif-image">
+                                            <a href="<?php echo page('work/community-builder') ?>"><img class="work-listing-img" src="content/home/community-builder-thumb.jpg" alt="Community Builder screenshots"></a>
+                                        </figure>
+                                    </div> <!-- ./main-work-listing-figure -->
+                                </div> <!-- ./col-1of3-work-figure -->
+
+                                <div class="col-2of3-work-description">
+                                    <div class="work-description">
+                                        <h3><a href="<?php echo page('work/community-builder') ?>">Notif Concept Mapping Tool</a></h3>
+                                        <em>UX/UI design &bull; interaction design &bull; user research &bull; usability testing</em>
+                                        <p>
+                                            Created the interface and interactions for a mobile app.
+                                        </p>
+
+                                    </div> <!-- ./work-description -->
+                                </div> <!-- ./col-2of3-work-description -->
+
+                            </div> <!-- ./col-1of3-work-main -->
+                        </div> <!-- ./main-page-work-grid -->
+
                         <!-- item 1 -->
                         <div class="main-page-work-grid">
                             <div class="col-1of3-work-main">
@@ -56,6 +83,36 @@
                             </div> <!-- ./col-1of3-work-main -->
                         </div> <!-- ./main-page-work-grid -->
 
+
+
+                    <div class="main-page-work-row">
+
+                        <!-- item 4 -->
+                        <div class="main-page-work-grid">
+                            <div class="col-1of3-work-main">
+                                
+                                <div class="col-1of3-work-figure">
+                                    <div class="main-work-listing-figure">
+                                        <figure class="notif-image">
+                                            <a href="<?php echo page('work/active-network-responsive-emails') ?>"><img class="work-listing-img" src="content/home/active-network-email-cropped.jpg" alt="Desktop and mobile views of an email"></a>
+                                        </figure>
+                                    </div> <!-- ./main-work-listing-figure -->
+                                </div> <!-- ./col-1of3-work-figure -->
+
+                                <div class="col-2of3-work-description">
+                                    <div class="work-description">
+                                        <h3><a href="<?php echo page('work/active-network-responsive-emails') ?>">ACTIVE Network Responsive Emails</a></h3>
+                                        <em>responsive email design &amp; development &bull; visual design &bull; marketing</em>
+                                        <p>
+                                            Hand-coded a series of responsive, mobile-friendly marketing emails.
+                                        </p>
+
+                                    </div> <!-- ./work-description -->
+                                </div> <!-- ./col-2of3-work-description -->
+
+                            </div> <!-- ./col-1of3-work-main -->
+                        </div> <!-- ./main-page-work-grid -->
+
                         <!-- item 3 -->
                         <div class="main-page-work-grid">
                             <div class="col-1of3-work-main">
@@ -83,33 +140,6 @@
                         </div> <!-- ./main-page-work-grid -->
                     </div> <!-- ./main-page-work-row -->
 
-                    <div class="main-page-work-row">
-                        <!-- item 4 -->
-                        <div class="main-page-work-grid">
-                            <div class="col-1of3-work-main">
-                                
-                                <div class="col-1of3-work-figure">
-                                    <div class="main-work-listing-figure">
-                                        <figure class="notif-image">
-                                            <a href="<?php echo page('work/active-network-responsive-emails') ?>"><img class="work-listing-img" src="content/home/active-network-email-cropped.jpg" alt="Desktop and mobile views of an email"></a>
-                                        </figure>
-                                    </div> <!-- ./main-work-listing-figure -->
-                                </div> <!-- ./col-1of3-work-figure -->
-
-                                <div class="col-2of3-work-description">
-                                    <div class="work-description">
-                                        <h3><a href="<?php echo page('work/active-network-responsive-emails') ?>">ACTIVE Network Responsive Emails</a></h3>
-                                        <em>responsive email design &amp; development &bull; visual design &bull; marketing</em>
-                                        <p>
-                                            Hand-coded a series of responsive, mobile-friendly marketing emails.
-                                        </p>
-
-                                    </div> <!-- ./work-description -->
-                                </div> <!-- ./col-2of3-work-description -->
-
-                            </div> <!-- ./col-1of3-work-main -->
-                        </div> <!-- ./main-page-work-grid -->
-
                         <!-- item 5 -->
                         <div class="main-page-work-grid">
                             <div class="col-1of3-work-main">
@@ -136,31 +166,8 @@
                             </div> <!-- ./col-1of3-work-main -->
                         </div> <!-- ./main-page-work-grid -->
 
-                        <!-- item 6 -->
-                        <div class="main-page-work-grid">
-                            <div class="col-1of3-work-main">
-                                
-                                <div class="col-1of3-work-figure">
-                                    <div class="main-work-listing-figure">
-                                        <figure class="notif-image">
-                                            <a href="<?php echo page('work/notif') ?>"><img class="work-listing-img" src="content/home/notif-thumb.png" alt="Notif use case screenshot"></a>
-                                        </figure>
-                                    </div> <!-- ./main-work-listing-figure -->
-                                </div> <!-- ./col-1of3-work-figure -->
 
-                                <div class="col-2of3-work-description">
-                                    <div class="work-description">
-                                        <h3><a href="<?php echo page('work/notif') ?>">Notif Concept Mapping Tool</a></h3>
-                                        <em>UX research &amp; development &bull; usability testing &bull; programming</em>
-                                        <p>
-                                            Prototyping a concept mapping tool targeted towards the academic teaching and learning domain. The design and functionality of our tool was heavily use-case and scenario-driven.
-                                        </p>
 
-                                    </div> <!-- ./work-description -->
-                                </div> <!-- ./col-2of3-work-description -->
-
-                            </div> <!-- ./col-1of3-work-main -->
-                        </div> <!-- ./main-page-work-grid -->
                     </div> <!-- ./main-page-work-row -->
 
 
