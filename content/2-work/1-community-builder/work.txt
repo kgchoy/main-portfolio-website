@@ -37,7 +37,7 @@ About-Section:
 ## About
 (vimeo: https://vimeo.com/147521491 width: 600 height: 338)
 
-As part of the final project for our Interface Design course, our team of four developed the interface and interactions for an Android app that allows people to organize, search, and volunteer for community events within their neighbourhoods, promoting physical community engagement through digital means.
+As part of the final project for our Interface Design course, our team of four developed the interface and interactions for an Android app that allowed people to organize, search, and volunteer for community events within their neighbourhoods, promoting physical community engagement through digital means.
 
 (image: banner-image.jpg alt: Two screenshots)
 
@@ -61,6 +61,7 @@ It's not enough to make the interface look visually appealing, of course. A lot 
 - Who are the primary users?
 - What are their tasks and goals?
 - How will our app's interface help accomplish them?
+As a team, we created scenarios, personas, and a journey map.
 
 (image: whiteboard-scrum.jpg alt: Four whiteboards caption: We often did whiteboard scrums to allow everyone to write or draw ideas at the same time. link: work/community-builder/whiteboard-scrum.jpg)
 
@@ -68,12 +69,12 @@ It's not enough to make the interface look visually appealing, of course. A lot 
 
 ### Prototyping
 
-Using Axure RP, I created the majority of the high-fidelity prototypes. Since I already had experience working with Axure in the past, I also implemented mobile scrolling, interaction states, heavy use of Axure variables to keep track of the system state, and so on. The visual design is based off of Android's material design language. The prototype matched the actual resolution of an Android phone (LG G3, specifically), and thus was able to create a prototype that looked and behaved almost exactly like a real app once it was loaded on the phone using the (link: http://www.axure.com/learn/axshare/app text: AxShare app).
+Using Axure RP, I was the lead creator of the high-fidelity prototype. Since I already had experience working with Axure in the past, I also implemented mobile scrolling, interaction states, heavy use of Axure variables to keep track of the system state, and so on. The visual design is based off of Android's material design language. The prototype matched the actual resolution of an Android phone (LG G3, specifically), and thus was able to create a prototype that looked and behaved almost exactly like a real app once it was loaded on the phone using the (link: http://www.axure.com/learn/axshare/app text: AxShare app).
 
 (image: prototyping-process.jpg alt: The prototyping process caption: Iterative changes of the interface design over several weeks. The final row incorporated changes as a result of usability testing. link: work/community-builder/prototyping-process.jpg)
 
 ### Usability Testing
-Near the later stages of the project, we conducted a usability test with five participants. We gave participants an Android phone with the prototype loaded on it, and had them complete a scenario consisting of four tasks. To get a broad range of feedback, three of the participants we recruited had experience planning community events, while two participants never organized any before, but want to attend community events.
+Near the later stages of the project, we conducted a usability test with five participants. We gave participants an Android phone with the prototype loaded on it, and had them complete a scenario consisting of four tasks. To get a broad range of feedback, three of the participants we recruited had experience planning community events, while two participants never organized any before, but want to attend community events. I created the usability test's scenario and tasks, and was the lead facilitator for a majority of the tests.
 
 We found a number of usability issues. Most crucially:
 - Inconsistent navigation and buttons
@@ -91,4 +92,4 @@ Outcomes-Section:
 
 Although I had past experience using Axure, I discovered that it was a far more capable prototyping tool than I thought. For example, I now have a lot more skill working with dynamic panels, Axure variables, and so on. Furthermore, I greatly improved my interaction design and visual design skills, with a higher level of knowledge about user goals and needs, hierarchy, typography, and branding.
 
-It was a pleasure getting to learn more about the topic of community building, and getting to do usability tests with people who have planned community events. I do believe that an app like this could succeed if it was actually built as a mobile app and released. The volunteerism aspect, while a small feature, is emphasized enough that it would make it stand out amongst other existing event planning platforms.
+It was a pleasure getting to learn more about the topic of community building, and getting to do usability tests with people who have planned community events. I do believe that an app like this could succeed if it was actually built as a mobile app and released. The volunteerism aspect, while a small feature, is emphasized enough that it would make the app stand out amongst other existing event planning platforms.
