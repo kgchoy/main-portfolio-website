@@ -6,7 +6,7 @@
 
                     <div class="main-page-work-row">
 
-                        <!-- item 6 -->
+                        <!-- item 1 -->
                         <div class="main-page-work-grid">
                             <div class="col-1of3-work-main">
                                 
@@ -20,10 +20,10 @@
 
                                 <div class="col-2of3-work-description">
                                     <div class="work-description">
-                                        <h3><a href="<?php echo page('work/community-builder') ?>">Notif Concept Mapping Tool</a></h3>
+                                        <h3><a href="<?php echo page('work/community-builder') ?>">Community Builder</a></h3>
                                         <em>UX/UI design &bull; interaction design &bull; user research &bull; usability testing</em>
                                         <p>
-                                            Created the interface and interactions for a mobile app.
+                                            Created the interface and interactions for a mobile app prototype.
                                         </p>
 
                                     </div> <!-- ./work-description -->
@@ -32,7 +32,7 @@
                             </div> <!-- ./col-1of3-work-main -->
                         </div> <!-- ./main-page-work-grid -->
 
-                        <!-- item 1 -->
+                        <!-- item 2 -->
                         <div class="main-page-work-grid">
                             <div class="col-1of3-work-main">
                                 
@@ -57,7 +57,7 @@
                             </div> <!-- ./col-1of3-work-main -->
                         </div>
 
-                        <!-- item 2 -->
+                        <!-- item 3 -->
                         <div class="main-page-work-grid">
                             <div class="col-1of3-work-main">
                                 
@@ -113,7 +113,7 @@
                             </div> <!-- ./col-1of3-work-main -->
                         </div> <!-- ./main-page-work-grid -->
 
-                        <!-- item 3 -->
+                        <!-- item 5 -->
                         <div class="main-page-work-grid">
                             <div class="col-1of3-work-main">
                                 
@@ -140,7 +140,7 @@
                         </div> <!-- ./main-page-work-grid -->
                     </div> <!-- ./main-page-work-row -->
 
-                        <!-- item 5 -->
+                        <!-- item 6 -->
                         <div class="main-page-work-grid">
                             <div class="col-1of3-work-main">
                                 
@@ -165,7 +165,6 @@
 
                             </div> <!-- ./col-1of3-work-main -->
                         </div> <!-- ./main-page-work-grid -->
-
 
 
                     </div> <!-- ./main-page-work-row -->
