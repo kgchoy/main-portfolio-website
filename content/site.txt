@@ -6,11 +6,11 @@ Author: Kevin Choy
 
 ----
 
-Description: The porfolio website of Kevin Choy, who specializes in user experience research, interaction design, and application development.
+Description: The porfolio for Kevin Choy, a specialist in user experience design, development, and research.
 
 ----
 
-Keywords: Kevin Choy, portfolio, user experience research, user experience design, UX, interaction design, interaction design, software development, web development, web design, mobile development, designer, programmer
+Keywords: Kevin Choy, portfolio, user experience development, user experience design, user experience research, UX, interaction design, interface design, software development, web design, web development, designer, programmer
 
 ----
 
