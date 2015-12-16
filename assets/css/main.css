@@ -251,7 +251,7 @@ ol li {
 .anchor-link {
     display: block;  /* display: none will break anchor links */
     visibility: hidden;
-    height: 4rem;
+    height: 5rem;
     margin-top: -4rem;
 }
 
