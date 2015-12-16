@@ -1,4 +1,7 @@
 .htaccess
 
+### hide account files ###
+/site/accounts
+
 ### ignore config file with license key ###
-config.php
+/site/config/config.php
