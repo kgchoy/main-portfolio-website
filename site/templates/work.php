@@ -78,7 +78,7 @@
                                 // to go to the overall site root: url('../../home')
                                 // otherwise: $site->homePage()
                                 // or maybe loop to last item instead?: $page->first()
-                                echo '<a class="button-nav full-width-button center-aligned-text" href="' . $pages->children()->last()->url() . '">&laquo;&nbsp; Go to Last Overall Work</a>';
+                                echo '<a class="button-nav full-width-button center-aligned-text" href="' . $pages->children()->last()->url() . '">&laquo;&nbsp; Go to Last Work</a>';
                                 
                                 // echo $pages->children()->last();
                             }
@@ -93,7 +93,7 @@
                             }
 
                             else {
-                                echo '<a class="button-nav full-width-button center-aligned-text" href="' . $pages->children()->first()->url() . '">Go to First Overall Work &nbsp;&raquo;</a>';
+                                echo '<a class="button-nav full-width-button center-aligned-text" href="' . $pages->children()->first()->url() . '">Go to First Work &nbsp;&raquo;</a>';
                             }
                         ?>
 
