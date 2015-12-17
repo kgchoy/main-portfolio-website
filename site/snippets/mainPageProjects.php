@@ -21,7 +21,7 @@
                                 <div class="col-2of3-work-description">
                                     <div class="work-description">
                                         <h3><a href="<?php echo page('work/community-builder') ?>">Community Builder</a></h3>
-                                        <em>UX/UI design &bull; interaction design &bull; user research &bull; usability testing</em>
+                                        <em>UX/UI design &amp; research &bull; interaction design &bull; usability testing</em>
                                         <p>
                                             Created the interface and interactions for a mobile app prototype.
                                         </p>
