@@ -4,11 +4,11 @@ Title: Community Builder
 
 Resources:
 
-(link: work/community-builder/prototype/index.html text: View Interactive Prototype target: _blank) _(Note: The prototype was designed for mobile devices with a resolution of 1440x2560. You will likely need to zoom out in your browser to view it clearly.)_
+(link: work/community-builder/prototype/index.html text: View Interactive Prototype target: _blank) _(Note: This prototype was designed for mobile devices with a resolution of 1440x2560. You will likely need to zoom out within your browser to view it clearly.)_
 
 ----
 
-Categories: UX/UI design, interaction design, user research, usability testing
+Categories: UX/UI design & research, interaction design, usability testing
 
 ----
 
@@ -61,28 +61,30 @@ It's not enough to make the interface look visually appealing, of course. A lot 
 - Who are the primary users?
 - What are their tasks and goals?
 - How will our app's interface help accomplish them?
-As a team, we created scenarios, personas, and a journey map.
+As a team, we created scenarios, personas, and a journey map, with my core contributions this stage being research and ideation.
 
 (image: whiteboard-scrum.jpg alt: Four whiteboards caption: We often did whiteboard scrums to allow everyone to write or draw ideas at the same time. link: work/community-builder/whiteboard-scrum.jpg)
+
+(image: persona.jpg alt: Mini-persona profile caption: A mini-persona describing one type of primary user)
 
 (image: journey-map.png alt: Journey map for two personas caption: A journey map for two separate personas. Click to enlarge. link: work/community-builder/journey-map.png)
 
 ### Prototyping
 
-Using Axure RP, I was the lead creator of the high-fidelity prototype. Since I already had experience working with Axure in the past, I also implemented mobile scrolling, interaction states, heavy use of Axure variables to keep track of the system state, and so on. The visual design is based off of Android's material design language. The prototype matched the actual resolution of an Android phone (LG G3, specifically), and thus was able to create a prototype that looked and behaved almost exactly like a real app once it was loaded on the phone using the (link: http://www.axure.com/learn/axshare/app text: AxShare app).
+I was the lead creator of the high-fidelity prototype, made in Axure RP. Since I already had experience working with Axure in the past, I also implemented mobile scrolling, interaction states, heavy use of Axure variables to keep track of the system state, and so on. The visual design is based off of Android's material design language. The prototype matched the actual resolution of an Android phone (LG G3, specifically), and thus was able to create a prototype that looked and behaved much like a real app once it was loaded on the phone using the (link: http://www.axure.com/learn/axshare/app text: AxShare app).
 
-(image: prototyping-process.jpg alt: The prototyping process caption: Iterative changes of the interface design over several weeks. The final row incorporated changes as a result of usability testing. link: work/community-builder/prototyping-process.jpg)
+(image: prototyping-process.jpg alt: The prototyping process caption: Iterative changes of the interface's design over several weeks. The final row incorporated changes as a result of usability testing. link: work/community-builder/prototyping-process.jpg)
 
 ### Usability Testing
-Near the later stages of the project, we conducted a usability test with five participants. We gave participants an Android phone with the prototype loaded on it, and had them complete a scenario consisting of four tasks. To get a broad range of feedback, three of the participants we recruited had experience planning community events, while two participants never organized any before, but want to attend community events. I created the usability test's scenario and tasks, and was the lead facilitator for a majority of the tests.
+Near the later stages of the project, we conducted a usability test with five participants. We gave participants an Android phone with the prototype loaded on it, and had them complete a scenario consisting of four tasks. To get a broader range of feedback, we decided to go with the "extreme user interview" method from (link: https://www.ideo.com/ text: IDEO): we looked for a mix of participants who were extremely familiar or completely unfamiliar with attending/organizing community events. Three of the participants we recruited had experience planning community events, while two participants never organized any before, but want to start attending events. I created the usability test's scenario and tasks, and was the lead facilitator for a majority of the tests.
 
-We found a number of usability issues. Most crucially:
+We found a number of usability issues. The most critical problems included:
 - Inconsistent navigation and buttons
 - Lack of sufficient visual feedback, such as pop-up confirmation
 - Lack of labels for some icons made it hard to tell what they meant
-- We didn't anticipate certain actions, causing partially broken workflows in some cases; for example, one participant wanted to postpone uploading a profile image until after account creation
+- We didn't anticipate certain actions in the prototype, causing partially broken workflows in some cases; for example, one participant wanted to postpone uploading a profile image until after account creation
 
-We then used these issues as points for improvement for our final prototypes.
+We then used these issues as points for improvement for our final prototype.
 
 ----
 
