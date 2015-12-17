@@ -49,7 +49,7 @@ Process-Section:
 
 ### Ideation &amp; Research
 
-Our team wanted to explore how to solve the problem of social isolation within Vancouver communities. During this stage, I researched causes and solutions to social isolation. A quote from a (link: http://www.theglobeandmail.com/life/life-of-solitude-a-loneliness-crisis-is-looming/article15573187/ text: "Life of solitude: A loneliness crisis is looming", an article by The Globe and Mail) became the inspiration to our idea that building a sense of community should ideally start from the bottom up, with ordinary residents attending, volunteering for, and organizing events, and that each of those aspects are equally important:
+Our team wanted to explore how to solve the problem of social isolation within Vancouver communities. During this stage, I researched causes and solutions to social isolation. A quote from a Globe and Mail article &ndash; (link: http://www.theglobeandmail.com/life/life-of-solitude-a-loneliness-crisis-is-looming/article15573187/ text: "Life of solitude: A loneliness crisis is looming") &ndash; became the inspiration to our idea that building a sense of community should start from the bottom up, with ordinary residents attending, volunteering for, and organizing events, and that each of those aspects are equally important:
 
 > _"The Vancouver Foundation has another answer: It is giving out grants of $500 to people who will organize a community event that brings strangers together &ndash; a knitting circle, an origami workshop, a pumpkin-carving jamboree. Mr. McCort attended one gathering recently, and was struck by an unfamiliar sight: "No one was on their phone, or checking email. There were a hundred people, just talking and making new friends.""_
 
