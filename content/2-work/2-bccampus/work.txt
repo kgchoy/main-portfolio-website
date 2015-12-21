@@ -65,7 +65,7 @@ Each in-person test was designed to take 45 minutes at most, since I knew the ta
 
 We visited each participant at the academic institution they worked at. Firstly, I set up a camera mounted on a tripod so that we could capture video of the participant’s screen and record audio; these recordings were to be used to review the session in case we missed anything during live testing. I then explained an introduction of the test: the purpose of the test, the roles of the facilitator and observer, and some key ideas to keep in mind. I then had the participant fill out the waiver form and the closed-ended questionnaire, which would allow us to collect more information about our website user demographics.
 
-(image: bcc-test-environment.jpg link: bcc-test-environment.jpg alt: A typical arrangement of the test environment caption: A typical arrangement of the test environment)
+(image: bcc-test-environment.png link: bcc-test-environment.png alt: Test environment image caption: An example setup of the test environment. Because testing was done at the participant's own workplace, each setup instance was different.)
 
 At this point, I started filming with the video camera, and went through the tasks. I verbally told them what the task was, and also gave them a sheet of paper with the task written down.
 
