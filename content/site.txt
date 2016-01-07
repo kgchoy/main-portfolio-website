@@ -16,4 +16,4 @@ Keywords: Kevin Choy, portfolio, user experience development, user experience de
 
 Copyright:
 
-&copy; (date: Year) Kevin Choy. Footer icons courtesy of (link: https://useiconic.com/open/ text: Open Iconic) and (link: http://www.socicon.com/ text: Socicon).
+&copy; (date: Year) Kevin Choy. View the (link: colophon text: site colophon) for more information about this website.

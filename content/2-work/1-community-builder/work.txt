@@ -4,7 +4,7 @@ Title: Community Builder
 
 Resources:
 
-(link: work/community-builder/prototype/index.html text: View Interactive Prototype target: _blank) _(Note: This prototype was designed for mobile devices with a resolution of 1440x2560. You will likely need to zoom out within your browser to view it clearly.)_
+(link: work/community-builder/prototype/index.html text: View Interactive Prototype target: _blank) _(Note: This prototype was designed for mobile devices with a resolution of 1440&times;2560. You will likely need to zoom out within your browser to view it clearly.)_
 
 ----
 

@@ -527,6 +527,11 @@ figcaption {
     margin-top: 2em;
 }
 
+.colophon h2 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
 .menu-items-list:after {
     /* clearfix to prevent zero-height element */
     clear: both;
