@@ -5,7 +5,7 @@ Title: Colophon
 Text:
 
 ## Page Creation, Hosting & Testing
-All of my pages are hand-coded using HTML5, CSS3, JavaScript, and PHP using (link: http://www.sublimetext.com text: Sublime Text). The (link: https://validator.w3.org/ text: markup is valid) to the greatest extent possible, although certain 3rd-party elements I use, such as Vimeo embed codes, will break validity on a few pages.
+All of my pages are hand-coded in HTML5, CSS3, JavaScript, and PHP using (link: http://www.sublimetext.com text: Sublime Text 3). The (link: http://validator.w3.org/ text: markup is valid) to the greatest extent possible, although certain 3rd-party elements I use, such as Vimeo embed codes, will unfortunately break validity on a few pages.
 
 Content is served using the (link: http://getkirby.com/ text: Kirby flat-file content management system).
 
@@ -18,3 +18,5 @@ Site testing is done using Chrome, Firefox, Internet Explorer/Edge, Safari, and 
 Footer icons are courtesy of (link: https://useiconic.com/open/ text: Open Iconic) and (link: http://www.socicon.com/ text: Socicon).
 
 The primary typeface is Source Sans Pro, provided by (link: https://www.google.com/fonts/specimen/Source+Sans+Pro text: Google Fonts).
+
+Additional site graphics by (link: http://nobacks.com/ text: NoBacks).
