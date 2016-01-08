@@ -13,7 +13,7 @@ Categories: Responsive email design &amp; development, visual design, marketing
 
 ----
 
-Roles: Visual designer, web coder
+Roles: Visual designer, web developer
 
 ----
 
@@ -21,7 +21,7 @@ Time-Taken: 2014, a few hours to a few days (per email)
 
 ----
 
-Tools: HTML5, CSS3, Campaign Monitor
+Tools: HTML5, CSS3, Campaign Monitor, pen & paper
 
 ----
 
@@ -33,9 +33,9 @@ About-Section:
 
 ## About
 
-(image: active-network-email-1.jpg alt: Email 1 screenshots &ndash; Mozilla Thunderbird vs. Android caption: Email 1 on Mozilla Thunderbird desktop email client vs. the default Email app on Android. The desktop three-column layout collapses into a single-column layout on mobile.)
+(image: active-network-email-1-dual.jpg alt: Email 1 screenshots &ndash; Mozilla Thunderbird vs. Android caption: Email 1 on Mozilla Thunderbird desktop email client vs. the default Email app on Android. The desktop three-column layout collapses into a single-column layout on mobile.)
 
-One of the responsibilities that ACTIVE Network is involved with is to provide online campsite registration services for several numerous state and federal campgrounds in the United States, such as the National Park Service and the Louisiana Department of Wildlife and Fisheries. During my 8-month co-op term there, one of the tasks that I took on was to create a series of responsive, mobile-friendly marketing emails and templates for that department of the company. These were mainly based off of the designs of their existing non-responsive emails, but part of this task was to also revise their designs, often adding in elements such as social media icons.
+One of ACTIVE Network's many responsibilities included providing online campsite registration services for numerous state and federal campgrounds in the United States, such as the National Park Service and the Louisiana Department of Wildlife and Fisheries. During my 8-month co-op term there, one of my many tasks that I took on was to create a series of responsive, mobile-friendly marketing emails and templates for that department of the company. These were mainly based off of the designs of their existing non-responsive emails, but part of this task was to also revise their designs, often adding in elements such as social media icons.
 
 Note that as I was mainly responsible for the design and layout, with the expectation that the content would be further modified by another person afterwards, many of the links in these HTML files do not lead anywhere.
 
@@ -45,7 +45,11 @@ Process-Section:
 
 ## Process
 
-For each email, I was given their existing non-responsive three-column email template for their HTML newsletter. My task was to change it to make it responsive for devices that support viewing responsive emails. To experiment with how it should look on mobile devices, I quickly drew wireframes on paper to experiment. Then, I coded a new template from scratch using a text editor, incorporating the former design elements into the new one. Next, I put the email design through rigorous testing; I uploaded it to (link: https://www.campaignmonitor.com/ text: Campaign Monitor) and sent it to different email addresses, viewing them on as many clients &ndash; both on desktop and mobile &ndash; as possible. I worked closely with my market manager to ensure that the design was built to specifications and that she was happy with the design.
+For each email, I was given their existing non-responsive three-column email template for their HTML newsletter. My task was to change it to make it responsive for devices that support viewing responsive emails. To experiment with how it should look on mobile devices, I quickly drew wireframes on paper to experiment.
+
+(image: sketches1.jpg alt: Two ideation sketches)
+
+Then, I coded a new template from scratch using a text editor, incorporating the former design elements into the new one. Next, I put the email design through rigorous testing; I uploaded it to (link: https://www.campaignmonitor.com/ text: Campaign Monitor) and sent it to different email addresses I controlled, viewing them on as many clients &ndash; both on desktop and mobile &ndash; as possible. I worked closely with my marketing manager to ensure that the design was built to specifications and that she was happy with the design.
 
 ----
 

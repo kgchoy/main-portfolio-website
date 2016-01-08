@@ -14,6 +14,6 @@ Time-Taken: Ongoing since early 2015
 
 ----
 
-Tools: Pencil & paper, Adobe Illustrator, Axure RP, Sublime Text
+Tools: Pencil & paper, Adobe Illustrator, Axure RP, Sublime Text, Git (GitHub & BitBucket)
 
 ----
