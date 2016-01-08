@@ -5,16 +5,16 @@ Title: Colophon
 Text:
 
 ## Page Creation, Hosting & Testing
-All of my pages are hand-coded using HTML5, CSS3, JavaScript, and PHP using (link: http://www.sublimetext.com text: Sublime Text). The HTML and CSS code is valid to the greatest extent possible, although I use elements such as embedded Vimeo videos on some pages, which will break validity.
+All of my pages are hand-coded using HTML5, CSS3, JavaScript, and PHP using (link: http://www.sublimetext.com text: Sublime Text). The (link: https://validator.w3.org/ text: markup is valid) to the greatest extent possible, although certain 3rd-party elements I use, such as Vimeo embed codes, will break validity on a few pages.
 
-Content is served using the (link: http://getkirby.com/ text: Kirby) flat-file content management system.
+Content is served using the (link: http://getkirby.com/ text: Kirby flat-file content management system).
 
 Site testing is done using Chrome, Firefox, Internet Explorer/Edge, Safari, and Opera, in addition to various mobile browsers.
 
-(link: http://piwik.org/ text: Piwik) is used for site analytics. This data is anonymized, and I won't track users who opt out of tracking using the (link: http://donottrack.us/ text: Do Not Track) preference on their browsers. 
+(link: http://piwik.org/ text: Piwik) is used for site analytics. This data is anonymized, and I won't track users who opt out of tracking using the (link: http://donottrack.us/ text: Do Not Track) preference on their browsers.
 
 
 ## Credits & Sources
 Footer icons are courtesy of (link: https://useiconic.com/open/ text: Open Iconic) and (link: http://www.socicon.com/ text: Socicon).
 
-Fonts provided by (link: http://www.google.com/fonts text: Google Fonts).
+The primary typeface is Source Sans Pro, provided by (link: https://www.google.com/fonts/specimen/Source+Sans+Pro text: Google Fonts).
