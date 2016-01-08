@@ -684,3 +684,11 @@ footer .menu-items-list li a {
     }
 }
 
+
+/* add vertical spacing when in single-column mode */
+@media (max-width: 40rem) {
+    #project-links-resources a {
+        margin-top: 0.25em;
+        margin-bottom: 0.75em;
+    }
+}

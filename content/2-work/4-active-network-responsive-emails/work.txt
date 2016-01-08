@@ -17,7 +17,7 @@ Roles: Visual designer, web developer
 
 ----
 
-Time-Taken: 2014, a few hours to a few days (per email)
+Time-Taken: 2014, a few hours to a few days (per email, on and off)
 
 ----
 
@@ -45,7 +45,7 @@ Process-Section:
 
 ## Process
 
-For each email, I was given their existing non-responsive three-column email template for their HTML newsletter. My task was to change it to make it responsive for devices that support viewing responsive emails. To experiment with how it should look on mobile devices, I quickly drew wireframes on paper to experiment.
+For each email, I was given their existing non-responsive HTML email newsletter template; for Email 1, this was the three-column design. My task was to change it to make it responsive for devices that support viewing responsive emails. To experiment with how it should look on mobile devices, I quickly drew wireframes on paper to experiment.
 
 (image: sketches1.jpg alt: Two ideation sketches)
 
