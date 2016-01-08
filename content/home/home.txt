@@ -4,7 +4,8 @@ Title: Main Page
 
 Main-Banner-Text:
 
-Hello! I'm a user experience designer and developer based in Vancouver.
+Hello! I'm Kevin.<br>
+I'm a user experience researcher and designer who also codes what I create.
 
 ----
 
