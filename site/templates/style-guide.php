@@ -389,7 +389,7 @@
                         &lt;a class="button-nav button-footer-nav" href="mailto:kgchoy@sfu.ca"&gt;&lt;img class="footer-icon" src="&lt;?php echo url('assets/images/icon-email.png') ?&gt;" alt="Email icon" width="32" height="18" aria-hidden="true"&gt;Email&lt;/a&gt;
                     &lt;/li&gt;
                     &lt;li&gt;
-                        &lt;a class="button-nav button-footer-nav" href="http://ca.linkedin.com/pub/kevin-choy/93/a52/784/"&gt;&lt;img class="footer-icon" src="&lt;?php echo url('assets/images/icon-linkedin.png') ?&gt;" alt="Email icon" width="27" height="18" aria-hidden="true"&gt;LinkedIn&lt;/a&gt;
+                        &lt;a class="button-nav button-footer-nav" href="https://ca.linkedin.com/in/kgchoy"&gt;&lt;img class="footer-icon" src="&lt;?php echo url('assets/images/icon-linkedin.png') ?&gt;" alt="Email icon" width="27" height="18" aria-hidden="true"&gt;LinkedIn&lt;/a&gt;
                     &lt;/li&gt;
                     &lt;li&gt;
                         &lt;a class="button-nav button-footer-nav" href="https://github.com/kgchoy"&gt;&lt;img class="footer-icon" src="&lt;?php echo url('assets/images/icon-github.png') ?&gt;" alt="GitHub icon" width="25" height="18" aria-hidden="true"&gt;GitHub&lt;/a&gt;
@@ -425,7 +425,7 @@
                                             <a class="button-nav button-footer-nav" href="mailto:kgchoy@sfu.ca"><img class="footer-icon" src="<?php echo url('assets/images/icon-email.png') ?>" alt="Email icon" width="32" height="18" aria-hidden="true">Email</a>
                                         </li>
                                         <li>
-                                            <a class="button-nav button-footer-nav" href="http://ca.linkedin.com/pub/kevin-choy/93/a52/784/"><img class="footer-icon" src="<?php echo url('assets/images/icon-linkedin.png') ?>" alt="Email icon" width="27" height="18" aria-hidden="true">LinkedIn</a>
+                                            <a class="button-nav button-footer-nav" href="https://ca.linkedin.com/in/kgchoy"><img class="footer-icon" src="<?php echo url('assets/images/icon-linkedin.png') ?>" alt="Email icon" width="27" height="18" aria-hidden="true">LinkedIn</a>
                                         </li>
                                         <li>
                                             <a class="button-nav button-footer-nav" href="https://github.com/kgchoy"><img class="footer-icon" src="<?php echo url('assets/images/icon-github.png') ?>" alt="GitHub icon" width="25" height="18" aria-hidden="true">GitHub</a>
