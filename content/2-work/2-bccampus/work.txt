@@ -77,7 +77,9 @@ After the in-person test sessions were completed, I conducted a shorter, remote 
 
 After I completed usability testing, I was tasked with compiling a report about procedures, findings, and recommendations. To prioritize the severities of the website's issues, I defined the (link: http://www.userfocus.co.uk/articles/redroutes.html text: red routes) of the website: which functionality was most important to the website, and what obstacles were impeding these routes? For example, I considered some of these issues, such as its difficult-to-use search function, were critical issues that a majority of our users had encountered and had to be fixed as soon as possible.
 
-The report was written specifically for internal use at BCcampus, as well as for BCcampus stakeholders. However, I obtained permission to include this report on my portfolio website; you may (file: bccampus-website-usability-test-report.pdf text: download it here).
+The report was written specifically for internal use at BCcampus, as well as for BCcampus stakeholders. However, I received permission to include this report on my portfolio website; you may (file: bccampus-website-usability-test-report.pdf text: download it here).
+
+(image: summary-of-recommendations.png alt: Summary of Recommendations link: work/bccampus/bccampus-website-usability-test-report.pdf caption: I added a summary of recommendations to the report's introduction to allow readers to know the important points right away. Click to view the report.)
 
 ----
 
