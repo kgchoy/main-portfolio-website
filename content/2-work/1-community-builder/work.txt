@@ -80,7 +80,7 @@ Near the later stages of the project, we conducted a usability test with five pa
 
 Three of the participants we recruited had experience planning community events, while two participants never organized any before, but want to start attending events. I created the usability test's scenario and tasks, and was the lead facilitator for a majority of the tests.
 
-(image: usability-testing.jpg alt: A usability test participant trying out our app caption: One of our usability test participants trying out our app prototype. Note: This participant provided permission for me to use their photo in my portfolio.)
+(image: usability-testing.jpg alt: A usability test participant trying out our app caption: One of our usability test participants trying out our app prototype. Note: This participant provided permission for me to use his photo in my portfolio.)
 
 We found a number of usability issues. The most critical problems included:
 - Inconsistent navigation and buttons
