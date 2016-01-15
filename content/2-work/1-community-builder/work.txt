@@ -76,7 +76,11 @@ I was the lead creator of the high-fidelity prototype, made in Axure RP. Since I
 (image: prototyping-process.jpg alt: The prototyping process caption: Iterative changes of the interface's design over several weeks. The final row incorporated changes as a result of usability testing. link: work/community-builder/prototyping-process.jpg)
 
 ### Usability Testing
-Near the later stages of the project, we conducted a usability test with five participants. We gave participants an Android phone with the prototype loaded on it, and had them complete a scenario consisting of four tasks. To get a broader range of feedback, we decided to go with the "extreme user interview" method from (link: https://www.ideo.com/ text: IDEO): we looked for a mix of participants who were extremely familiar or completely unfamiliar with attending/organizing community events. Three of the participants we recruited had experience planning community events, while two participants never organized any before, but want to start attending events. I created the usability test's scenario and tasks, and was the lead facilitator for a majority of the tests.
+Near the later stages of the project, we conducted a usability test with five participants. We gave participants an Android phone with the prototype loaded on it, and had them complete a scenario consisting of four tasks. To get a broader range of feedback, we decided to go with the "extreme user interview" method from (link: https://www.ideo.com/ text: IDEO): we looked for a mix of participants who were extremely familiar or completely unfamiliar with attending/organizing community events.
+
+Three of the participants we recruited had experience planning community events, while two participants never organized any before, but want to start attending events. I created the usability test's scenario and tasks, and was the lead facilitator for a majority of the tests.
+
+(image: usability-testing.jpg alt: A usability test participant trying out our app caption: One of our usability test participants trying out our app prototype. Note: This participant provided permission for me to use their photo in my portfolio.)
 
 We found a number of usability issues. The most critical problems included:
 - Inconsistent navigation and buttons
