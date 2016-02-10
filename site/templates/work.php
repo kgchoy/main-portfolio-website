@@ -31,7 +31,7 @@
                     }
 
                     if ($page->time_taken()->isNotEmpty()) {
-                        echo '<h4>Year / Time Taken</h4>
+                        echo '<h4>Duration</h4>
                         <p>' . $page->time_taken() . '</p>';
                     }
 
