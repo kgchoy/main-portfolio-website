@@ -1,0 +1,70 @@
+Title: Arma Vita
+
+----
+
+Categories: Game design &amp; development, UX/UI design, usability testing
+
+----
+
+Roles: Interface co-designer &amp; co-developer, lead level designer, lead playtest coordinator, secondary graphic designer
+
+----
+
+Time-Taken: September 2014 &ndash; December 2014
+
+----
+
+Tools: Unity, C#, Illustrator, Photoshop
+
+----
+
+Collaborators:
+
+Hua Wei Chen<br>
+Henri Dela Cruz<br>
+Billy Li<br>
+Rosemarie Tat
+
+----
+
+About-Section:
+
+## About
+
+(vimeo: https://vimeo.com/154703710 width: 600 height: 338)
+
+Arma Vita is a side-scrolling hack and slash action game that our team created for our Advanced Game Design course.
+
+Our idea revolved around the tagline "one body, two souls", with character transformations being the main unique gameplay mechanic. The player controls one of the two characters (Dawn and Dusk) in human form; the other character is contained in weapon form. The player is able to transform back and forth between the two characters/weapon forms; in fact, it will be strategically necessary to change forms at times due to each combination’s strengths and weaknesses against certain enemies.
+
+(image: title-screen.jpg alt: Title screen caption: I developed the interface for the menus in the game, including the title screen, game over screen, and pause menu.)
+
+----
+
+Process-Section:
+
+## Process
+
+Game development was split into four stages: pre-alpha prototype, alpha, beta, and release. It was done in an agile development method, where we created a working game ready before the end of each stage, conduct playtesting to evaluate, and determine recommendations for the next cycle.
+
+As the primary level designer, I designed three levels that made full use of the character switching mechanic.
+
+(image: boss2-sketches.jpg alt: Train level design caption: Early ideas for Level 2's boss mechanics. Click to enlarge. link: work/arma-vita/boss2-sketches.jpg)
+
+(image: train-level-design.jpg alt: Train level design caption: Level 2's proposed design and enemy placement. Click to enlarge. link: work/arma-vita/train-level-design.jpg)
+
+One challenge was figuring out how to teach the player the gameplay mechanics without being "handholdy". My solution was to tie the learning experience into the story and game flow by making the first level simply a tutorial boss fight. This boss deals no damage to the player, but to defeat both its forms, the player must switch characters. To further hint at how to do this, I co-created (link: http://www.gamasutra.com/view/feature/4286/game_ui_discoveries_what_players_.php?print=1 text: diegetic) background elements (as part of the in-game world) to teach the player these mechanics, and were placed at strategic locations throughout the first sections of the game.
+
+(image: mechanics.jpg alt: Two gameplay screenshots caption: Teaching gameplay mechanics using diegetic background elements. In the first example, instructions to switch characters were placed as museum art in the room with the tutorial boss fight; in the second, it involved advertisements on a subway train to show which playable character is best against certain enemies. link: work/arma-vita/mechanics.jpg)
+
+Three playtesting sessions were held throughout the four development stages. As the lead playtesting recruiter, designer, and coordinator, I created a plan for each stage to evaluate our participants' performance, determine where they got stuck or confused, and what they liked or disliked.
+
+(image: playtesting-documents.jpg alt: Playtesting documents caption: Various playtesting documents. link: work/arma-vita/playtesting-documents.jpg)
+
+----
+
+Outcomes-Section:
+
+## Outcomes
+
+It was incredibly fulfilling to build a fully functional video game from scratch. I gained valuable experience developing our game using Unity by learning more about the engine and C# on my own, as well as from my teammates, in a very short period of time. While it was a challenging project due to the incredibly tight deadlines when considering the amount of work needed from us throughout each cycle, it was also rewarding to experience what it's like to work in an agile team. Throughout the course, I also expanded my knowledge of important game design concepts, and applied them to make our game enjoyable and fun; it was a pleasure seeing that our efforts paid off, judging by the positive results and feedback we received from playtesting, the teaching staff, and industry professionals.
