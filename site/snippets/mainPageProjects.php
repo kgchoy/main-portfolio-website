@@ -83,7 +83,7 @@
                             </div> <!-- ./col-1of3-work-main -->
                         </div> <!-- ./main-page-work-grid -->
 
-
+                    </div> <!-- ./main-page-work-row -->
 
                     <div class="main-page-work-row">
 
@@ -138,9 +138,38 @@
 
                             </div> <!-- ./col-1of3-work-main -->
                         </div> <!-- ./main-page-work-grid -->
-                    </div> <!-- ./main-page-work-row -->
 
                         <!-- item 6 -->
+                        <div class="main-page-work-grid">
+                            <div class="col-1of3-work-main">
+                                
+                                <div class="col-1of3-work-figure">
+                                    <div class="main-work-listing-figure">
+                                        <figure class="notif-image">
+                                            <a href="<?php echo page('work/arma-vita') ?>"><img class="work-listing-img" src="content/home/arma-vita-thumb.jpg" alt="Arma Vita game screenshot"></a>
+                                        </figure>
+                                    </div> <!-- ./main-work-listing-figure -->
+                                </div> <!-- ./col-1of3-work-figure -->
+
+                                <div class="col-2of3-work-description">
+                                    <div class="work-description">
+                                        <h3><a href="<?php echo page('work/arma-vita') ?>">Arma Vita</a></h3>
+                                        <em>game design &amp; development &bull; UX/UI design &bull; usability testing</em>
+                                        <p>
+                                            Designed and developed a side-scrolling hack and slash action game.
+                                        </p>
+
+                                    </div> <!-- ./work-description -->
+                                </div> <!-- ./col-2of3-work-description -->
+
+                            </div> <!-- ./col-1of3-work-main -->
+                        </div> <!-- ./main-page-work-grid -->
+
+                    </div> <!-- ./main-page-work-row -->
+
+
+                    <div class="main-page-work-row">
+                        <!-- item 7 -->
                         <div class="main-page-work-grid">
                             <div class="col-1of3-work-main">
                                 
@@ -165,8 +194,6 @@
 
                             </div> <!-- ./col-1of3-work-main -->
                         </div> <!-- ./main-page-work-grid -->
-
-
                     </div> <!-- ./main-page-work-row -->
 
 
