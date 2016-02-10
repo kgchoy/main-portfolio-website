@@ -37,7 +37,7 @@ Arma Vita is a side-scrolling hack and slash action game that our team created f
 
 Our idea revolved around the tagline "one body, two souls", with character transformations being the main unique gameplay mechanic. The player controls one of the two characters (Dawn and Dusk) in human form; the other character is contained in weapon form. The player is able to transform back and forth between the two characters/weapon forms; in fact, it will be strategically necessary to change forms at times due to each combination’s strengths and weaknesses against certain enemies.
 
-(image: title-screen.jpg alt: Title screen caption: I developed the interface for the menus in the game, including the title screen, game over screen, and pause menu.)
+(image: title-screen.jpg alt: Title screen caption: I designed and coded various aspects of the user interface, including the title screen [pictured], game over screen, and pause menu.)
 
 ----
 
