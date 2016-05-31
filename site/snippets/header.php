@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns#">
 <head>
 
     <meta charset="utf-8">
@@ -11,6 +11,9 @@
 
     <!-- favicon -->
     <link rel="icon" type="image/png" href="<?php echo url('assets/images/favicon.png') ?>">
+
+    <!-- link preview for social networks -->
+    <?php snippet('social-media-meta-tags') ?>
 
     <?php echo css('assets/css/main.css') ?>
 
