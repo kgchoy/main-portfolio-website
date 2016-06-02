@@ -82,13 +82,7 @@ Three of the participants we recruited had experience planning community events,
 
 (image: usability-testing.jpg alt: A usability test participant trying out our app caption: One of our usability test participants trying out our app prototype. Note: This participant provided permission for me to use his photo in my portfolio.)
 
-We found a number of usability issues. The most critical problems included:
-- Inconsistent navigation and buttons
-- Lack of sufficient visual feedback, such as pop-up confirmation
-- Lack of labels for some icons made it hard to tell what they meant
-- We didn't anticipate certain actions in the prototype, causing partially broken workflows in some cases; for example, one participant wanted to postpone uploading a profile image until after account creation
-
-We then used these issues as points for improvement for our final prototype.
+After the conclusion of the tests, we used the feedback we received to refine our final prototype.
 
 ----
 
