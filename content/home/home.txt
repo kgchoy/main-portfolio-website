@@ -2,6 +2,18 @@ Title: Main Page
 
 ----
 
+OpenGraphTitle: Kevin Choy's Portfolio
+----
+OpenGraphDescription: Porfolio for Kevin Choy, a specialist in user experience research, design, and development.
+----
+OpenGraphType: profile
+----
+OpenGraphImage: http://kevinchoy.ca/content/home/og-home-image.png
+----
+OpenGraphUrl: http://kevinchoy.ca
+
+----
+
 Main-Banner-Text:
 
 Hello! I'm Kevin.<br>
