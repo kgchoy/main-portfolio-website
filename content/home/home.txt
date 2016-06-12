@@ -4,7 +4,7 @@ Title: Main Page
 
 OpenGraphTitle: Kevin Choy's Portfolio
 ----
-OpenGraphDescription: Porfolio for Kevin Choy, a specialist in user experience research, design, and development.
+OpenGraphDescription: Portfolio for Kevin Choy, a specialist in user experience research, design, and development.
 ----
 OpenGraphType: profile
 ----
