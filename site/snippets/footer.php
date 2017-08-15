@@ -18,9 +18,6 @@
                         <li>
                             <a class="button-nav button-footer-nav" href="https://github.com/kgchoy"><img class="footer-icon" src="<?php echo url('assets/images/icon-github.png') ?>" alt="GitHub icon" width="25" height="18" aria-hidden="true">GitHub</a>
                         </li>
-                        <li>
-                            <a class="button-nav button-footer-nav" href="assets/doc/resume.pdf"><img class="footer-icon" src="<?php echo url('assets/images/icon-resume.png') ?>" alt="Resume icon" width="25" height="18" aria-hidden="true">Resume</a>
-                        </li>
                     </ul>
                     
 
