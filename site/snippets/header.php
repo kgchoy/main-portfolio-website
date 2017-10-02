@@ -19,7 +19,7 @@
 
     <?php echo css('assets/css/grid.css') ?>
 
-    <?php echo css('http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,700italic,600italic,400italic') ?>
+    <?php echo css('//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,700italic,600italic,400italic') ?>
 
 </head>
 
