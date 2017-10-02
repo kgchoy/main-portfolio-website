@@ -678,6 +678,10 @@ footer .menu-items-list li a {
     text-align: center;
 }
 
+.col-1of3-about-sidebar > figure > img {
+    border: 0.075rem solid rgb(225, 225, 225);
+}
+
 @media (max-width: 50.75rem) {
     .right-align-button {
         text-align: left;
