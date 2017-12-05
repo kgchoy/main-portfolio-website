@@ -25,7 +25,7 @@ Collaborators: One designer
 About-Section:
 
 ## About
-A large, American multinational e-commerce company awarded my company, D3 Security, a contract to provide an internal human resources case management platform for them. I was tasked to lead the UI/UX design of this complex application, which will be used by at least 4000 users once launched.
+A large multinational e-commerce company awarded D3 Security, the company I work at, a contract to provide an internal human resources case management platform for them. I was tasked to lead the UI/UX design of this complex application, which will be used by at least 4000 users once launched.
 
 _Please note that as this platform will be used by the client's internal teams, and will not be publicly available, I cannot disclose specific details about this project or show detailed UI sketches/mockups._
 
@@ -41,8 +41,8 @@ While D3 currently has a successful case management within our enterprise incide
 At the beginning of this project, our design team consisted only of myself as the sole UX/UI Designer, as well as another Software Architect. However, a new UI/UX Designer was hired one month into the project, after which I became the UI/UX lead. I promptly trained the new designer to get familiar with our existing application, then gradually got her more involved with this design project. I delegated tasks to her of increasing responsibility as the project went on, provided constructive feedback given our design specifications, and ultimately ensured that all mockups that either of us created were as high quality as possible and that they followed the functional specifications.
 
 ### Design Process
-The client wanted high-fidelity static UI mockups that could be presented as PDF slides as the finalized result of the design stage. As such, I chose to use a rapid prototyping method. I created a user flow diagram, which I continually revised throughout the project, to determine how users might interact with our application to accomplish tasks. Then, based on the functional specifications provided by my manager and the Software Architect, I quickly sketched my ideas down using pen and paper, and then filtered down my ideas. After presenting my ideas to my manager, I translated my sketches into high-fidelity mockups using Illustrator. The high-fidelity mockups were  presented to the client's project coordinator for feedback regularly; then, I iteratively revised them.
-(image: flow-diagram.png alt: User flow diagram caption: User flow diagram.)
+The client wanted high-fidelity static UI mockups that could be presented as PDF slides as the finalized result of the design stage. As such, I chose to use a rapid prototyping method. I created a user flow diagram to determine how users might interact with our application to accomplish tasks. Then, based on the functional specifications provided by my manager and the Software Architect, I quickly sketched my ideas down using pen and paper, and then filtered down my ideas. After presenting my ideas to my manager, I translated my sketches into high-fidelity mockups using Illustrator. The high-fidelity mockups were  presented to the client's project coordinator for feedback regularly; then, I iteratively revised them.
+(image: flow-diagram.png alt: User flow diagram caption: A user flow diagram demonstrating various stages of the HR case investigation process.)
 
 (image: ui-sketches.jpg alt: Assortment of sketches caption: An assortment of my various UI sketches.)
 
