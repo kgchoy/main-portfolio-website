@@ -6,24 +6,24 @@
 
                     <div class="main-page-work-row">
 
-                        <!-- item 1 -->
+                        <!-- item 1: D3 -->
                         <div class="main-page-work-grid">
                             <div class="col-1of3-work-main">
-                                
+
                                 <div class="col-1of3-work-figure">
                                     <div class="main-work-listing-figure">
                                         <figure class="notif-image">
-                                            <a href="<?php echo page('work/community-builder') ?>"><img class="work-listing-img" src="content/home/community-builder-thumb.jpg" alt="Community Builder screenshots"></a>
+                                            <a href="<?php echo page('work/d3-security') ?>"><img class="work-listing-img" src="content/home/d3-security-thumb.jpg" alt="D3 Security sketches"></a>
                                         </figure>
                                     </div> <!-- ./main-work-listing-figure -->
                                 </div> <!-- ./col-1of3-work-figure -->
 
                                 <div class="col-2of3-work-description">
                                     <div class="work-description">
-                                        <h3><a href="<?php echo page('work/community-builder') ?>">Community Builder</a></h3>
-                                        <em>UX/UI design &amp; research &bull; interaction design &bull; usability testing</em>
+                                        <h3><a href="<?php echo page('work/d3-security') ?>">D3 Security HR Case Management Software UI Design</a></h3>
+                                        <em>UX/UI design &bull; interaction design</em>
                                         <p>
-                                            Created the interface and interactions for a mobile app prototype.
+                                            Designed the interface for an HR case management tool.
                                         </p>
 
                                     </div> <!-- ./work-description -->
@@ -32,10 +32,10 @@
                             </div> <!-- ./col-1of3-work-main -->
                         </div> <!-- ./main-page-work-grid -->
 
-                        <!-- item 2 -->
+                        <!-- item 2: BCcampus -->
                         <div class="main-page-work-grid">
                             <div class="col-1of3-work-main">
-                                
+
 
                                 <div class="col-1of3-work-figure">
                                     <div class="main-work-listing-figure">
@@ -44,7 +44,7 @@
                                         </figure>
                                     </div>
                                 </div>
-                                
+
                                 <div class="col-2of3-work-description">
                                     <div class="work-description">
                                         <h3><a href="<?php echo page('work/bccampus') ?>">BCcampus.ca Usability Testing</a></h3>
@@ -57,40 +57,10 @@
                             </div> <!-- ./col-1of3-work-main -->
                         </div>
 
-                        <!-- item 3 -->
+                        <!-- item 3: ACTIVE Network -->
                         <div class="main-page-work-grid">
                             <div class="col-1of3-work-main">
-                                
-                                <div class="col-1of3-work-figure">
-                                    <div class="main-work-listing-figure">
-                                        <figure>
-                                            <a href="<?php echo page('work/notif') ?>"><img class="work-listing-img" src="content/home/notif-thumb.png" alt="Notif use case screenshot"></a>
-                                        </figure>
-                                    </div> <!-- ./main-work-listing-figure -->
-                                </div> <!-- ./col-1of3-work-figure -->
 
-                                <div class="col-2of3-work-description">
-                                    <div class="work-description">
-                                        <h3><a href="<?php echo page('work/notif') ?>">Notif Concept Mapping Tool</a></h3>
-                                        <em>UX research &amp; development &bull; usability testing &bull; programming</em>
-                                        <p>
-                                            Prototyped a concept mapping tool targeted towards the academic teaching and learning domain. The tool's design and functionality was heavily use-case and scenario-driven.
-                                        </p>
-
-                                    </div> <!-- ./work-description -->
-                                </div> <!-- ./col-2of3-work-description -->
-
-                            </div> <!-- ./col-1of3-work-main -->
-                        </div> <!-- ./main-page-work-grid -->
-
-                    </div> <!-- ./main-page-work-row -->
-
-                    <div class="main-page-work-row">
-
-                        <!-- item 4 -->
-                        <div class="main-page-work-grid">
-                            <div class="col-1of3-work-main">
-                                
                                 <div class="col-1of3-work-figure">
                                     <div class="main-work-listing-figure">
                                         <figure class="notif-image">
@@ -113,10 +83,66 @@
                             </div> <!-- ./col-1of3-work-main -->
                         </div> <!-- ./main-page-work-grid -->
 
-                        <!-- item 5 -->
+                    </div> <!-- ./main-page-work-row -->
+
+                    <div class="main-page-work-row">
+
+                        <!-- item 4: Community Builder -->
                         <div class="main-page-work-grid">
                             <div class="col-1of3-work-main">
-                                
+
+                                <div class="col-1of3-work-figure">
+                                    <div class="main-work-listing-figure">
+                                        <figure class="notif-image">
+                                            <a href="<?php echo page('work/community-builder') ?>"><img class="work-listing-img" src="content/home/community-builder-thumb.jpg" alt="Community Builder screenshots"></a>
+                                        </figure>
+                                    </div> <!-- ./main-work-listing-figure -->
+                                </div> <!-- ./col-1of3-work-figure -->
+
+                                <div class="col-2of3-work-description">
+                                    <div class="work-description">
+                                        <h3><a href="<?php echo page('work/community-builder') ?>">Community Builder</a></h3>
+                                        <em>UX/UI design &amp; research &bull; interaction design &bull; usability testing</em>
+                                        <p>
+                                            Created the interface and interactions for a mobile app prototype.
+                                        </p>
+
+                                    </div> <!-- ./work-description -->
+                                </div> <!-- ./col-2of3-work-description -->
+
+                            </div> <!-- ./col-1of3-work-main -->
+                        </div> <!-- ./main-page-work-grid -->
+
+                        <!-- item 5: Notif -->
+                        <div class="main-page-work-grid">
+                            <div class="col-1of3-work-main">
+
+                                <div class="col-1of3-work-figure">
+                                    <div class="main-work-listing-figure">
+                                        <figure>
+                                            <a href="<?php echo page('work/notif') ?>"><img class="work-listing-img" src="content/home/notif-thumb.png" alt="Notif use case screenshot"></a>
+                                        </figure>
+                                    </div> <!-- ./main-work-listing-figure -->
+                                </div> <!-- ./col-1of3-work-figure -->
+
+                                <div class="col-2of3-work-description">
+                                    <div class="work-description">
+                                        <h3><a href="<?php echo page('work/notif') ?>">Notif Concept Mapping Tool</a></h3>
+                                        <em>UX research &amp; development &bull; usability testing &bull; programming</em>
+                                        <p>
+                                            Prototyped a concept mapping tool targeted towards the academic teaching and learning domain. The tool's design and functionality was heavily use-case and scenario-driven.
+                                        </p>
+
+                                    </div> <!-- ./work-description -->
+                                </div> <!-- ./col-2of3-work-description -->
+
+                            </div> <!-- ./col-1of3-work-main -->
+                        </div> <!-- ./main-page-work-grid -->
+
+                        <!-- item 6: Sprawl Visualization -->
+                        <div class="main-page-work-grid">
+                            <div class="col-1of3-work-main">
+
                                 <div class="col-1of3-work-figure">
                                     <div class="main-work-listing-figure">
                                         <figure>
@@ -131,32 +157,6 @@
                                         <em>data visualization &bull; information design &bull; web programming</em>
                                         <p>
                                             Visualization about urban sprawl statistics in the United States, built in JavaScript.
-                                        </p>
-
-                                    </div> <!-- ./work-description -->
-                                </div> <!-- ./col-2of3-work-description -->
-
-                            </div> <!-- ./col-1of3-work-main -->
-                        </div> <!-- ./main-page-work-grid -->
-
-                        <!-- item 6 -->
-                        <div class="main-page-work-grid">
-                            <div class="col-1of3-work-main">
-                                
-                                <div class="col-1of3-work-figure">
-                                    <div class="main-work-listing-figure">
-                                        <figure class="notif-image">
-                                            <a href="<?php echo page('work/arma-vita') ?>"><img class="work-listing-img" src="content/home/arma-vita-thumb.jpg" alt="Arma Vita game screenshot"></a>
-                                        </figure>
-                                    </div> <!-- ./main-work-listing-figure -->
-                                </div> <!-- ./col-1of3-work-figure -->
-
-                                <div class="col-2of3-work-description">
-                                    <div class="work-description">
-                                        <h3><a href="<?php echo page('work/arma-vita') ?>">Arma Vita</a></h3>
-                                        <em>game design &amp; development &bull; UX/UI design &bull; usability testing</em>
-                                        <p>
-                                            Designed and developed a side-scrolling hack and slash action game.
                                         </p>
 
                                     </div> <!-- ./work-description -->
