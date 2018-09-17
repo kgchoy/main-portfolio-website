@@ -25,9 +25,9 @@ Collaborators: Inky Kang
 About-Section:
 
 ## About
-A large multinational e-commerce company awarded D3 Security, the company I work at, a contract to provide an internal human resources case management platform for them. I was tasked to lead the UI/UX design of this complex application, which will be used by at least 4000 users once launched.
+While working at D3 Security, my largest undertaking to date was successfully leading the UI/UX design of a human resources case management application for a large multinational e-commerce company. It was launched in June 2018, with at least 4000 users around the world using it.
 
-_Please note that as this platform will be used by the client's internal teams and will not be publicly available, I cannot disclose specific details about this project or show detailed UI sketches/mockups on my portfolio._
+_Please note that as this platform will be used by the client's internal teams and will not be publicly accessible, I cannot disclose specific details about this project or show detailed UI sketches/mockups on my portfolio._
 
 ----
 
@@ -36,12 +36,12 @@ Process-Section:
 ## Process
 
 ### Background
-While D3 currently has a successful case management within our enterprise incident management web application, it isn't a general tool that wasn't specifically targeted for HR personnel. As such, when the client requested a tool that had significantly different functionality and a vastly different UI/UX than what we have, we determined that we would need to significantly overhaul the UI and improve the UX. Another complication was that from the start of the project, they wanted the overall design to be presented and approved within two months (November 2017), with the first deployment of the software determined initially to be within five months.
+While D3 currently has a successful case management within our enterprise incident management web application, it isn't specifically targeted for HR personnel. As a result, when the client requested a tool that had significantly different functionality and a vastly different UI/UX than what we have, we determined that we would need to significantly overhaul the UI and improve the UX. Another complication was that from the start of the project, they wanted the overall design to be presented and approved within two months (November 2017), with the full deployment of the software to be within nine months.
 
 At the beginning of this project, our design team consisted only of myself as the sole UX/UI Designer, as well as another Software Architect. However, a new UI/UX Designer was hired one month into the project, after which I became the UI/UX lead. I promptly trained the new designer to get familiar with our existing application, then gradually got her more involved with this design project. I delegated tasks to her of increasing responsibility as the project went on, provided constructive feedback given our design specifications, and ultimately ensured that all mockups that either of us created were as high quality as possible and that they followed the functional specifications.
 
 ### Design Process
-The client wanted high-fidelity static UI mockups that could be presented as PDF slides as the finalized result of the design stage. As such, I chose to use a rapid prototyping method. I created a user flow diagram to determine how users might interact with our application to accomplish tasks. Then, based on the functional specifications provided by my manager and the Software Architect, I quickly sketched my ideas down using pen and paper, and then filtered down my ideas. After presenting my ideas to my manager, I translated my sketches into high-fidelity mockups using Illustrator. The high-fidelity mockups were  presented to the client's project coordinator for feedback regularly; then, I iteratively revised them.
+The client wanted high-fidelity static UI mockups that could be presented as PDF slides as the finalized result of the design stage. As such, I chose to use a rapid prototyping method. I created a user flow diagram to determine how users might interact with our application to accomplish tasks. Then, based on the functional specifications provided by my manager and the Software Architect, I quickly sketched my ideas down using pen and paper, and then filtered down my ideas. After presenting my ideas to my manager, I translated my sketches into high-fidelity mockups using Illustrator. The high-fidelity mockups were presented to the client's project coordinator for feedback regularly; then, I iteratively revised them.
 (image: flow-diagram.png alt: User flow diagram caption: A user flow diagram demonstrating various stages of the HR case investigation process.)
 
 (image: ui-sketches.jpg alt: Assortment of sketches caption: An assortment of my various UI sketches.)
@@ -53,4 +53,4 @@ There were numerous challenging aspects with this project; the most significant 
 Outcomes-Section:
 
 ## Outcomes
-This was a massive undertaking in which a total of 44 high-fidelity product mockups were created in the end; this was, in fact, trimmed down from a high of over 55 mockups at one point, as the client no longer required some of sections presented earlier on. In mid-November, the mockups were then presented by D3's senior staff during an on-site meeting with the client's senior staff, as well as various user groups, to demonstrate the overall UI, functionality, and workflow. We received very good feedback, and the UI mockups ultimately played a huge role in helping their management express confidence in D3's product and our capability to deliver a solution that is easy to use, yet is highly customizable for all their needs.
+This was a massive undertaking in which a total of 44 high-fidelity product mockups were created in the end. In mid-November, the mockups were then presented by D3's senior staff during an on-site meeting with the client's senior staff, as well as various user groups, to demonstrate the overall UI, functionality, and workflow. We received very good feedback, and the UI mockups ultimately played a huge role in helping their management express confidence in D3's product and our capability to deliver a solution that is easy to use yet is highly customizable for all their needs.
