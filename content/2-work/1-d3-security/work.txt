@@ -25,9 +25,9 @@ Collaborators: Inky Kang
 About-Section:
 
 ## About
-While working at D3 Security, my largest undertaking to date was successfully leading the UI/UX design of a human resources case management application for a large multinational e-commerce company. It was launched in June 2018, with at least 4000 users around the world using it.
+While working at D3 Security, my largest undertaking to date was successfully leading the UI/UX design of a human resources case management application for a large multinational e-commerce company. It was officially launched in June 2018, with over 4000 users around the world using it.
 
-_Please note that as this platform will be used by the client's internal teams and will not be publicly accessible, I cannot disclose specific details about this project or show detailed UI sketches/mockups on my portfolio._
+_Please note that because this platform is being used by the client's internal teams and is not publicly accessible, I cannot disclose specific details nor show detailed UI sketches/mockups for this project on my portfolio._
 
 ----
 
